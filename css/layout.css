@@ -4,7 +4,7 @@
 @supports (-webkit-overflow-scrolling: touch) {
   /* CSS specific to iOS devices */ 
   body{
-    /*height: 100vh;*/
+    height: 100vh;
     /*padding: 0 2rem;*/
   }
 }
@@ -15,9 +15,12 @@ html, body {
 body.register-page{
     
 }
-/*#content{
+#content{
   min-height: 100vh;
-}*/
+}
+.otp-page #content{
+  min-height: 95vh;
+}
 section.footer-section{
   position: relative;
 }
@@ -31,6 +34,10 @@ section.footer-section::before {
     width: 100%;
     top: -15rem;
     z-index: -1;
+}
+.otp-page section.footer-section::before {
+    height: 33rem;
+    top: -28rem;
 }
 /*.otp.section.footer-section::before {
     background-image: url(../img/regist-mbl-bg.png) !important;
