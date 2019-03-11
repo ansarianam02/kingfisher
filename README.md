@@ -11,4 +11,4 @@ otp.html
 
 
 Note :
-use class .err-container to hide/show Error on each page.
+use class .err-container to hide/show Error on all pages.
