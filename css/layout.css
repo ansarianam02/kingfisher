@@ -19,7 +19,8 @@ body.register-page{
   min-height: 100vh;
 }
 .otp-page #content{
-  min-height: 95vh;
+  min-height: 92.8vh;
+
 }
 section.footer-section{
   position: relative;
