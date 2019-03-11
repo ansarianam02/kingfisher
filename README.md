@@ -2,7 +2,6 @@
 
 Completed :-->
 
-README.md	
 claim.html,
 mobile.html,
 more info1.html,
