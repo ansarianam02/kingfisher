@@ -3,10 +3,10 @@
 Completed :-->
 
 README.md	
-claim.html
-mobile.html
-more info1.html
-more info2.html
+claim.html,
+mobile.html,
+more info1.html,
+more info2.html,
 otp.html
 
 
