@@ -102,13 +102,11 @@ section.game.footer-section::before{
     position: absolute;
     z-index: 99;
     width: 20rem;
-    left: 7rem;
 }
 
 .navbar-inverse .navbar-nav > li > a{
   /* color: #f7892f !important;*/
   cursor: pointer;
-  text-align: right;
 }
 /*.container.main-area.bg{
   background-image: url(../img/main-top.png);
@@ -227,7 +225,7 @@ section.game.footer-section::before{
   text-align: center;
   line-height: 0;
   bottom: -5rem;
-  background: url(../img/close.svg);
+  background: url(../img/close.png);
 }
 .modal button.close:before {
 
@@ -253,26 +251,6 @@ section.game.footer-section::before{
 .panel{
   /*background: #4a4a4a;
   opacity: 0.5;*/
-}
-.btn-live{
-  background: #d0021b;
-  display: inline-block;
-  padding: 0.3rem 1rem 0.3rem 1.5rem;
-  border-radius: 5px;
-  position: relative;
-  color: white;
-  margin-right: 2rem;
-}
-.btn-live:after{
-  content: '.';
-  position: absolute;
-  font-size: 4.5rem;
-  width: 1rem;
-  height: 1rem;
-  top: -3.3rem;
-  left: 0.25rem;
-  color: white;
-  font-weight: 500;
 }
 .footer-section{
    font-size: 1.3rem;

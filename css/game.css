@@ -1,0 +1,337 @@
+body{
+    background-image: url('../img/game-bg.png');
+    background-size: 100% 100%;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #fff !important;
+  }
+  .team-score{
+    position: relative;
+  }
+  .team-score .content{
+    position: absolute;
+  }
+  .swiper-container {
+    width: 138%;
+    height: 350px;
+    margin: 18px auto 2px;
+  }
+  .item {
+      min-height: 200px;
+      text-align: center;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+      left:-7rem;
+    }
+    .swiper-slide.swiper-slide-next {
+    margin-top: 1rem;
+    height: 90%;
+  }
+  .carousal-conatiner{
+      width: 115%;
+      margin-left: -14%;
+  }
+  .swiper-slide.swiper-slide-prev {
+      margin-right: 1.5rem !important;
+      height: 90%;
+      margin-top: 1rem !important;
+  }
+
+  .swiper-pagination.swiper-pagination-bullets {
+      display: none;
+  }
+
+  .swiper-slide.swiper-slide-active {
+      width: 58% !important;
+      margin-right: 2.5% !important;
+  }                   
+  .swiper-slide{
+    line-height: 3rem !important;
+    padding-top:1rem !important;
+  }
+  .swiper-scrollbar{
+    display: none;
+  }
+  .foot-card1{
+    margin-top: 0.8rem !important;
+    background: url(../img/group1.png);
+    background-repeat: no-repeat;
+    height: 10.5rem;
+    background-position: center;
+  }
+  .foot-card2{
+    margin-top: 0.8rem !important;
+    background: url(../img/group2.png);
+    background-repeat: no-repeat;
+    height: 10.5rem;
+    background-position: center;
+  }
+
+.stopwatch-container{
+  margin-top:12rem;
+  font-size: 1.7rem;
+}
+.stopwatch{
+  position: relative;
+} 
+.stopwatch:before{
+  background: url(../img/stopwatch.png);
+    background-size: contain;
+    position: absolute;
+    content: '';
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    top: -4rem;
+    left: -2rem;    
+}
+.moveLeft{
+  margin-left: -4rem !important;
+}
+.nolive{
+  position: relative;
+  font-size: 2rem !important;
+  margin-top: 8rem !important;
+}
+.nolive:before{
+  content: '';
+    position: absolute;
+    height: 8rem;
+    width: 6rem;
+    background: url(../img/batsman-l.png) no-repeat;
+    left: 10rem;
+    top: -10rem;
+    background-size: 100% 100%;
+}
+
+.txt-8{
+  font-size: 8px;
+}
+.txt-10{
+  font-size: 10px;
+}
+.team{
+  position: relative;
+  font-weight: bold;
+}
+.title-mum:after{
+  content: 'Vs';
+  color: #df0827;
+  font-weight: 650;
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  font-size: 2rem;  
+}
+.team-vs-mum:before{
+  background: url(../img/mum.png) no-repeat;
+   background-repeat:no-repeat;
+   content: '';
+   position:absolute;
+   height:5rem;
+   width:6rem;
+   left:-17%;
+   top:7px;
+}
+
+.team-vs-ban:after{
+   background: url(../img/ban.png) no-repeat;
+   content: '';
+   position:absolute;
+   height:5rem;
+   width:6rem;
+   right:-40%;
+   top:7px;
+}
+.match-date{
+  margin-left: -2.6rem;
+}
+.match-time{
+  background: #9b9b9b;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 3px;
+  text-align: center;
+
+}
+.teams{
+    position:relative;
+}
+.team-icon{
+    position:relative;
+}
+.team1{
+    padding-left:6rem;
+}
+.team1.teams:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    height: 4rem;
+    width: 1rem;
+    top: -0.2rem;
+    right: 0rem;
+    border-right: 1px solid #fff;
+    transform: rotate(20deg);
+}
+.team2{
+    padding-right:2rem;
+    padding-left:4.5rem;
+}
+
+.team1 .team-icon:before{
+    content: '';
+    position: absolute;
+    height: 3.8rem;
+    width: 3.8rem;
+    top: 0.3rem;
+    left: -4.9rem;
+    background: url(../img/mum.png) no-repeat;
+    background-size: 100% 100%;
+}
+.team2 .team-icon:after{
+    content: '';
+    position: absolute;
+    height: 3.8rem;
+    width: 3rem;
+    top: 0.2rem;
+    right: -10rem;
+    background: url(../img/ban.png) no-repeat;
+    background-size: 100% 100%;
+}
+.team-score {
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.team2 span.content {
+    content: '';
+    position: absolute;
+    color: #ffffff;
+    top: 1.1rem;
+    right: 6.5rem;
+    font-size: 1rem;
+}
+
+.team1 span.content {
+    content: '';
+    position: absolute;
+    color: #ffffff;
+    top: 1rem;
+    left: 5.5rem;
+    font-size: 1rem;
+}
+.card-panel{
+  background: #4a4a4aa6;
+  border-radius: 1.2rem;
+  color: #fff;
+  opacity: 0.8;
+  border: 2px solid #4a4a4aa6;
+  font-size: 1.2rem;
+}
+.ball-icon:before{
+  content: '';
+  position: absolute;
+  height: 2rem;
+  width:3rem;
+  background:url('../img/cricketBall.png') no-repeat;
+  left: 1.4rem;
+  top: 0.5rem;
+}
+.ball-icon{
+  position: relative;
+}
+
+.over{
+  padding-left: 3.8rem
+}
+.result.won span{
+  color: #3c763d;
+  background: #dff0d8;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+}
+.result.lost span {
+  color: #a94442;
+  background: #f2dede;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  font-weight: bold; 
+}
+.quest{
+  font-size: 2rem;
+}
+.answer{
+  padding: 0 4rem;
+}
+.answer .selected{
+  font-size: 1.3rem;
+  font-weight: normal !important;
+  letter-spacing: 0.05rem;
+  margin-top: 6rem;
+  display: inline-block;
+}
+.coin{
+  position: relative;
+}
+.coin:before{
+  content: '';
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  background: url(../img/coin.png);
+  top: 0.2rem;
+  left: 4.5rem
+}
+.game-top{
+  position: relative;
+  margin-left: -3rem;
+}
+.game-top .top-coin{
+  position: absolute;
+  right: -8rem;
+  top: 1.3rem;
+  margin-right: -8rem;
+}
+.question{
+  font-size: 1.7rem;
+}
+.no-bowl{
+  margin-top: 5rem;
+}
+.won-card{
+  position: relative;
+}
+.won-card:before{
+    content:'';
+    position:absolute;
+    display:inline-block;
+    top:12rem;
+    left:0.5rem;
+    width:34rem;
+    height:10rem;
+    background:url('../img/celeb.png') no-repeat;
+}
+.won-card .btn-submit{
+  background: #28ae62 !important;
+  box-shadow: 1px 1px 9px 0px #28ae62 !important;
+}
+.won-card .no-bowl{
+  color:#28ae62 !important;
+}
+.btn-live{
+  position: relative;
+}
+.btn-live:after{
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 6rem;
+  height: 2.2rem;
+  top: -0.3rem;
+  left: -6.2rem;
+  background: url(../img/live.png) no-repeat;
+  background-size: contain;
+  background-color: #df0827;
+}

@@ -29,7 +29,7 @@
         </button>
         <a class="navbar-brand" href="#">
             <div class="row pt-4 game-top">
-              <span class="col-md text-left color-white"> Welcome John !</span>
+              <span class="col-md-10 text-left color-white font-weight-bold"> Welcome John !</span>
                <span class="col-md text-right top-coin color-white"> <img src="img/coin.png"> 10 </span> 
             </div>
              
@@ -57,7 +57,7 @@
       <div class="card-panel pb-4">
         <div class="row px-4 py-2">
           <div class="col-xs-6 color-white">Current match</div>
-          <div class="col-xs-6 text-right"> <span class="btn-live">Live</span></div>
+          <div class="col-xs-6 text-right"> <span class="btn-live"></span></div>
         </div>
 
         <div class="row mt-3">
@@ -65,14 +65,17 @@
             <div class="col-xs-6 team1 teams">
               <span class="team-icon mum"></span>
               <span class="team-name">Mumbai</span><br/>
-              <span class="team-score">120-5</span>
-              <span class="content">121</span>
+              <span class="team-score">120-5
+                <span class="content">121</span>
+              </span>
             </div>
             <div class="col-xs-6 team2 teams">
               <span class="team-icon ban"></span>
               <span class="team-name ">Banglore</span><br/>
-              <span class="team-score">105-5 *</span>
-              <span class="content">121</span>
+              <span class="team-score">105-5 *
+                <span class="content">121</span>
+              </span>
+              
             </div>
           </div>
         </div>
@@ -89,7 +92,7 @@
                     <div class="container">
                         <div class="row">
                           <div class="col-xs-4 over ball-icon">Over: 3</div>
-                          <div class="col-xs-4 result won"><span>You won</span></div>
+                          <div class="col-xs-4"></div>
                           <div class="col-xs-4 px-5 coin text-right">4,300</div>
                         </div>
 
@@ -108,12 +111,23 @@
 
                       </div>
                 </div>
-                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">
+                    <div class="row stopwatch-container">
+                      <div class="col">
+                        <i class="stopwatch"></i>
+                      </div>
+                      <p class="text-center">
+                        <span class="font-weight-bold">Stay tuned!</span>
+                        <br/>Next question coming soon…
+                      </p>
+                    </div>
+
+                </div>
                 <div class="swiper-slide">
                     <div class="col-sm-12">
                         <div class="row">
                           <div class="col-xs-4 over ball-icon">Over: 3</div>
-                          <div class="col-xs-4 result won"><span>You won</span></div>
+                          <div class="col-xs-4"></div>
                           <div class="col-xs-4 px-5 coin text-right">10</div>
                         </div>
 
@@ -133,8 +147,47 @@
                       </div>
 
                 </div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">
+                  <div class="col-sm-12">
+                        <div class="row">
+                          <div class="col-xs-4 over ball-icon">Over: 3</div>
+                          <div class="col-xs-8 result lost text-right"><span>You lost</span></div>
+                        </div>
+
+                        <div class="col my-2 text-center font-weight-bold question">
+                          <p>
+                            Will the bowler cross 130 kmph mark in 3rd over?
+                          </p>
+                        </div>
+
+                        <div class="col my-2 text-center answer font-weight-bold ">
+                          <span class="selected">You selected</span>
+                          <button type="submit" class="btn btn-submit mt-3 btn-option">Submit</button>
+                        </div>
+                        <p class="red-t no-bowl">No bowl was bowled above 130 kmph</p>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-sm-12 won-card">
+                        <div class="row">
+                          <div class="col-xs-4 over ball-icon">Over: 3</div>
+                          <div class="col-xs-4 result won"><span>You won</span></div>
+                          <div class="col-xs-4 px-5 coin text-right">10</div>
+                        </div>
+
+                        <div class="col my-2 text-center font-weight-bold question">
+                          <p>
+                            Will the bowler cross 130 kmph mark in 3rd over?
+                          </p>
+                        </div>
+
+                        <div class="col my-2 text-center answer font-weight-bold ">
+                          <span class="selected">You selected</span>
+                          <button type="submit" class="btn btn-submit mt-3 btn-option">Submit</button>
+                        </div>
+                        <p class="red-t no-bowl">No bowl was bowled above 130 kmph</p>
+                      </div>
+                </div>
                 <div class="swiper-slide">Slide 6</div>
                 <div class="swiper-slide">Slide 7</div>
                 <div class="swiper-slide">Slide 8</div>
@@ -165,7 +218,7 @@
         <script>
             var swiper = new Swiper({
                 el: '.swiper-container',
-                initialSlide: 2,
+                initialSlide: 4,
                 spaceBetween: 50,
                 slidesPerView: 2,
                 centeredSlides: true,
@@ -188,16 +241,19 @@
                   prevEl: '.swiper-button-prev',
                 },
             });
+            swiper.on('slideChange', function () {debugger;
+              console.log('slide changed');
+              if(swiper.realIndex==0){
+                $('.swiper-slide:first').addClass('moveLeft');
+              }else{
+                $('.swiper-slide').removeClass('moveLeft');
+              }
+            });
         </script>
 
       <!-- end carousal-->
       <!-- scratch box -->
-      <div class="foot-card">
-        <div class="row px-5 py-2">
-          <div class="col-xs-6 icon text-center"><img src="img/icon/icon.png" class="d-inline-block align-top" alt=""> </div>
-          <div class="col-xs-6 pt-3 text-right text-center"> Click here to
-            Scratch this and WIN rewards</div>
-        </div>        
+      <div class="foot-card foot-card1">
     </div>
   </div>
   
@@ -207,58 +263,7 @@
   <link rel="stylesheet" type="text/css" href="css/utilities.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css"> 
   <link rel="stylesheet" type="text/css" href="css/iplStyle.css">
- 
+  <link rel="stylesheet" type="text/css" href="css/game.css">
+  <script type="text/javascript"></script>
 </body>
-<style type="text/css">
-  body{
-    background-image: url('img/game-bg.png');
-    background-size: 100% 100%;
-  }
-  .swiper-container {
-    width: 138%;
-    height: 350px;
-    margin: 18px auto 2px;
-  }
-  .item {
-      min-height: 200px;
-      text-align: center;
-    }
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-      left:-12rem;
-    }
-    .swiper-slide.swiper-slide-next {
-    margin-top: 1rem;
-    height: 90%;
-  }
-  .carousal-conatiner{
-      width: 115%;
-      margin-left: -14%;
-  }
-  .swiper-slide.swiper-slide-prev {
-      margin-right: 1.5rem !important;
-      height: 90%;
-      margin-top: 1rem !important;
-  }
-
-  .swiper-pagination.swiper-pagination-bullets {
-      display: none;
-  }
-
-  .swiper-slide.swiper-slide-active {
-      width: 58% !important;
-      margin-right: 2.5% !important;
-  }                   
-  .swiper-slide{
-    line-height: 3rem !important;
-    padding-top:1rem !important;
-  }
-  .swiper-scrollbar{
-    display: none;
-  }
-  .foot-card{
-    border: solid 1px #979797;
-    border-radius: 0.8rem;
-    margin-top: 0.8rem !important;
-  }
-</style>
 </html>
