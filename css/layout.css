@@ -102,6 +102,7 @@ section.game.footer-section::before{
     position: absolute;
     z-index: 99;
     width: 20rem;
+    left: 7rem;
 }
 
 .navbar-inverse .navbar-nav > li > a{
