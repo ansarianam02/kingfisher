@@ -108,6 +108,7 @@ section.game.footer-section::before{
 .navbar-inverse .navbar-nav > li > a{
   /* color: #f7892f !important;*/
   cursor: pointer;
+  text-align: right;
 }
 /*.container.main-area.bg{
   background-image: url(../img/main-top.png);
