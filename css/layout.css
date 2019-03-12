@@ -8,9 +8,11 @@
     /*padding: 0 2rem;*/
   }
 }
+
 /*common css*/
 html, body {
-    overflow: auto;
+    /*overflow: auto;*/
+    overflow: hidden;
 }
 body.register-page{
     
@@ -36,10 +38,18 @@ section.footer-section::before {
     top: -15rem;
     z-index: -1;
 }
+section.footer-section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -8;
+}
+
 .otp-page section.footer-section::before {
     height: 33rem;
     top: -28rem;
 }
+
 /*.otp.section.footer-section::before {
     background-image: url(../img/regist-mbl-bg.png) !important;
     background-repeat: no-repeat;
@@ -226,6 +236,9 @@ section.game.footer-section::before{
   font-size: 1.2rem;
   padding: 0.9rem 1rem;
   text-transform: uppercase;
+}
+.btn-option{
+  box-shadow: 1px 1px 9px 0px #b35757;
 }
 .btn-disabled{
     opacity: 0.6 !important;
