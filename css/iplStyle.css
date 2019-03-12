@@ -4,6 +4,12 @@
     background-color: #fbfbfb;
     font-size: 1.3rem;
 }
+.fixedHeight .regSection .form{
+    height: 37rem !important;
+}
+.regSection{
+  margin-top: -5rem !important;
+}
 .regist-head{
   position:relative;
 }
@@ -241,4 +247,11 @@
 	right: -8rem;
 	top: 1.3rem;
 	margin-right: -8rem;
+}
+
+.dropdown-conatiner{
+  padding: 3.5rem 0 !important;
+}
+.btn-top{
+  margin-top: 8rem !important; 
 }
