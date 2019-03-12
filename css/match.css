@@ -1,0 +1,79 @@
+body{
+    background-image: url('../img/match-bg.png');
+    background-size: 100% 100%;
+  }
+  
+section.footer-section::before{
+	background-image: none !important;
+}
+.txt-8{
+  font-size: 8px;
+}
+.txt-12{
+  font-size: 12px;
+}
+.team{
+  position: relative;
+  font-weight: bold;
+}
+.team1:after{
+  content: 'Vs';
+  color: #df0827;
+  font-weight: 650;
+  position: absolute;
+  right: 0;
+  top: -0.6rem;
+  font-size: 2rem;  
+}
+.team1:before{
+  	background: url(../img/mum.png) no-repeat;
+	background-repeat: no-repeat;
+	content: '';
+	position: absolute;
+	height: 3rem;
+	width: 3rem;
+	left: -4%;
+	top: -4px;
+}
+.team.team2 {
+    padding-left: 6rem !important;
+}
+.team2:after{
+   background: url(../img/ban.png) no-repeat;
+    content: '';
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    right: -4%;
+    top: -0.6rem;
+}
+.match-date{
+  /*margin-left: -2.6rem;*/
+}
+.match-time{
+  background: #9b9b9b;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 3px;
+  text-align: center;
+
+}
+.current-match{
+	background: #f5a623;
+	color: white;
+  border-radius: 3px;
+  padding: 5px 3px;
+  text-align: center;
+
+}
+.start-play{
+	padding: 1rem 2rem;
+	background: #df0827;
+	color: #fff;
+	clear: left;
+	text-align: center;
+}
+.upcoming{
+	font-weight: 750;
+    font-size: 1.5rem;
+}

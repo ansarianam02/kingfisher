@@ -75,23 +75,3 @@
     padding: 0 3rem !important;
     font-size: 1.35rem !important;
 }
-.claim-list{
-	position: relative;
-}
-.claim-list li{
-	font-size: 1.6rem;
-    margin: 4rem 0;
-    list-style: none;
-}
-.claim-list li:nth-child(2){
-	margin-bottom: 1rem !important;
-    
-}
-.claim-list li:before{
-	content: '';
-	position: absolute;
-	height: 2rem;
-	width:3rem;
-	background:url('../img/cricketBall.png') no-repeat;
-	left: 1rem;
-}

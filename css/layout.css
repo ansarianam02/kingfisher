@@ -93,7 +93,7 @@ section.game.footer-section::before{
   padding-left: 2.5rem;
 }
 .navbar-collapse{
-  margin-left: 8rem !important;
+ margin-left: 17.6rem !important;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border: none !important;
@@ -225,6 +225,7 @@ section.game.footer-section::before{
   text-align: center;
   line-height: 0;
   bottom: -5rem;
+  left:18rem;
   background: url(../img/close.png);
 }
 .modal button.close:before {
