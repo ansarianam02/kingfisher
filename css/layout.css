@@ -50,7 +50,7 @@ section.footer-section {
     top: -28rem;
 }
 .register-page .right-partition,.info-page .register-page{
-  margin-top:0rem !important;
+  margin-top:-3rem !important;
 }
 /*.otp.section.footer-section::before {
     background-image: url(../img/regist-mbl-bg.png) !important;
