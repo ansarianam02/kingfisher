@@ -49,7 +49,9 @@ section.footer-section {
     height: 33rem;
     top: -28rem;
 }
-
+.right-partition{
+  margin-top:-5rem;
+}
 /*.otp.section.footer-section::before {
     background-image: url(../img/regist-mbl-bg.png) !important;
     background-repeat: no-repeat;
