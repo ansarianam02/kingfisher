@@ -12,8 +12,9 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <!-- Bootstrap is required -->
-<script src="js/jquery.bcSwipe.js"></script>
+    <!-- Bootstrap is required -->
+  <script src="js/jquery.bcSwipe.js"></script>
+  <script type="text/javascript" src="js/scratch.js"></script>
   
 </head>
 
@@ -256,7 +257,79 @@
       <div class="foot-card foot-card1">
     </div>
   </div>
-  
+  <button id="scratch1">scratch</button>
+  <button id="scratch2">congratulations</button>
+  <button id="scratch3">King</button>
+  <button id="scratch4">scratch</button>
+<!-- claim modal-->
+<div id="scratchModal" class="modal fade claim" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="scratch-title text-center"></p>
+        <button type="button" class="close" data-dismiss="modal"></button>        
+      </div>
+      <div class="modal-body">
+        
+        <div class="form-group my-3 mx-5 scratch-img text-center">
+            <div class="container" id="js-container">
+              <canvas class="canvas" id="js-canvas" width="170" height="100"></canvas>
+              <form class="form" style="visibility: hidden;">
+                <h2>'Allo, 'Allo!</h2>
+              </form>  
+            </div>
+        </div>
+        <div class="form-group my-3 mx-5 text-center congo-holder" style="display: none">
+            <p class="congo-icon text-center"> You have won INR 200 of Book my show Vouchar </p>
+        </div>
+
+        <p class="text-center px-4 congo-holder sms-alert" style="display: none">We will send you a SMS/Email with the<br/> details of your reward.</p>
+        <div class="form-group mt-3 go-btn" style="display: none">
+        <button type="submit" class="btn btn-submit btn-mobile-submit">Go Back to Home</button>
+        </div>
+        <ul class="claim-list">
+          <li>The higher your points the higher will be the rewards.</li>
+          <li>You will get only one scratch card at the end of each innings.</li>
+          <li>You need to buy another pitcher to play and win in another innings.</li>
+        </ul>
+      </div>      
+    </div>
+
+  </div>
+</div> 
+<!-- end Modal -->
+
+<!-- good modal-->
+<div id="kingModal" class="modal fade claim" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img src="img/icon/icon.png">        
+        <p class="good-title text-center"></p>
+        <button type="button" class="close" data-dismiss="modal"></button>        
+      </div>
+      <div class="modal-body">
+        
+        <div class="form-group pt-4 my-5 mx-5 text-center">
+          <img src="img/backto.png">
+        </div>
+        
+        <div class="form-group pt-4 my-5 mx-5 text-center">
+          <p class="won-title">You won</p>
+          <p class="won-point text-center">100</p>
+        </div>
+        
+        <div class="form-group mt-3 go-btn">
+          <button type="submit" class="btn btn-submit btn-mobile-submit">CONTINUE TO PLAY</button>
+        </div>
+        
+      </div>      
+    </div>
+
+  </div>
+</div> 
+<!-- end Modal -->
+
  <!-- end main partion -->
 </div>
 
@@ -264,6 +337,27 @@
   <link rel="stylesheet" type="text/css" href="css/layout.css"> 
   <link rel="stylesheet" type="text/css" href="css/iplStyle.css">
   <link rel="stylesheet" type="text/css" href="css/game.css">
-  <script type="text/javascript"></script>
+  <script type="text/javascript">
+     
+     $(document).on('click','#scratch1',function(){
+        $('#scratchModal').modal();
+        cardCall();
+     })
+
+     $(document).on('click','#scratch2',function(){
+        $('#scratchModal .modal-dialog').addClass('congratulation');
+       
+     })
+
+     $(document).on('click','#scratch3',function(){
+        $('#kingModal').modal();
+       
+     })
+
+     $(document).on('click','#scratch4',function(){
+        $('#scratchModal').modal();
+       
+     })
+  </script>
 </body>
 </html>
