@@ -36,16 +36,6 @@ section.footer-section::before {
     top: -15rem;
     z-index: -1;
 }
-/*.fixedHeight section.footer-section::before {
-  background-image: url(../img/regist-mbl-bg.png) !important;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-   position: absolute;
-    height: 31rem;
-    width: 100%;
-    top: -26rem;
-}*/
 .otp-page section.footer-section::before {
     height: 33rem;
     top: -28rem;
@@ -63,6 +53,9 @@ section.footer-section::before {
 }
 
 */
+.color-white{
+  color: white !important;
+}
 section.game.footer-section::before{
   background: none !important;
 }

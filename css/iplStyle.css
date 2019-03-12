@@ -4,14 +4,27 @@
     background-color: #fbfbfb;
     font-size: 1.3rem;
 }
-.fixedHeight .regSection .form{
-    height: 37rem !important;
-}
-.regSection{
-  margin-top: -5rem !important;
-}
 .regist-head{
   position:relative;
+}
+.fixedHeight .regSection .form{
+  padding: 1rem 2rem 6rem;
+}
+.otp-container{
+  margin-bottom: 16rem !important;
+}
+.drop-container {
+  margin-top: 4rem !important;
+}
+.text-container{
+  padding-top: 2rem !important;
+  margin-bottom: 4rem !important;
+}
+.btn-top{
+  margin-top: 7rem !important;
+}
+.btn-top2{
+  margin-top: 6rem !important;
 }
 .regist-head:before{
    background: url(../img/bottle1.png) no-repeat;
@@ -199,8 +212,11 @@
     font-size: 1.2rem;
 }
 .card-panel{
-	background: #625e5ebd;
-	border-radius: 1.2rem;
+	background: #4a4a4aa6;
+  border-radius: 1.2rem;
+  color: #fff;
+  opacity: 0.8;
+  border: 2px solid #4a4a4aa6;
 }
 .ball-icon:before{
 	content: '';
@@ -241,17 +257,11 @@
 
 .game-top{
   position: relative;
+  margin-left: -3rem;
 }
 .game-top .top-coin{
   position: absolute;
 	right: -8rem;
 	top: 1.3rem;
 	margin-right: -8rem;
-}
-
-.dropdown-conatiner{
-  padding: 3.5rem 0 !important;
-}
-.btn-top{
-  margin-top: 8rem !important; 
 }
