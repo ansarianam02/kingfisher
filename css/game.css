@@ -54,14 +54,14 @@ body{
   }
   .foot-card1{
     margin-top: 0.8rem !important;
-    background: url(../img/group1.png);
+    background: url(../img/scratchcardlocked.svg);
     background-repeat: no-repeat;
     height: 10.5rem;
     background-position: center;
   }
   .foot-card2{
     margin-top: 0.8rem !important;
-    background: url(../img/group2.png);
+    background: url(../img/scratchcardunlocked.svg);
     background-repeat: no-repeat;
     height: 10.5rem;
     background-position: center;
