@@ -128,7 +128,7 @@
                     <div class="col-sm-12">
                         <div class="row">
                           <div class="col-xs-4 over ball-icon">Over: 3</div>
-                          <div class="col-xs-4"></div>
+                          <div class="col-xs-4 "><span class="icon-timer">40</span></div>
                           <div class="col-xs-4 px-5 coin text-right">10</div>
                         </div>
 
@@ -242,7 +242,7 @@
                   prevEl: '.swiper-button-prev',
                 },
             });
-            swiper.on('slideChange', function () {debugger;
+            swiper.on('slideChange', function () {
               console.log('slide changed');
               if(swiper.realIndex==0){
                 $('.swiper-slide:first').addClass('moveLeft');
@@ -352,12 +352,6 @@
      $(document).on('click','#scratch3',function(){
         $('#kingModal').modal();
        
-     })
-
-     $(document).on('click','#scratch4',function(){
-        $('#scratchModal').modal();
-       
-     })
-  </script>
+     } </script>
 </body>
 </html>
