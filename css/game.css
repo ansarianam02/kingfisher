@@ -451,3 +451,16 @@ body{
     background: url(../img/coin.png) no-repeat;
     background-size: contain;
 }
+.icon-timer{
+    display: inline-block;
+    background: url(../img/timer.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 3.5rem;
+    width: 6rem;
+    right: 3rem;
+    text-align: center;
+}
+.btn-submit{
+  padding: 1rem !important;
+}
