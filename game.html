@@ -52,6 +52,12 @@
 
  
 <div class="container main-area register bg py-2">
+  <div class="row">
+      <button id="scratch1">scratch</button>
+      <button id="scratch2">congratulations</button>
+      <button id="scratch3">King</button>
+      <button id="scratch4">scratch</button>
+  </div>
   <div> <!--class="row center-border" -->
    
     <div class="right-partition">
@@ -65,14 +71,14 @@
           <div class="col-md-12 ">
             <div class="col-xs-6 team1 teams">
               <span class="team-icon mum"></span>
-              <span class="team-name cheers">Mumbai</span><br/>
+              <span class="team-name">Mumbai</span><br/>
               <span class="team-score">120-5
                 <span class="content">121</span>
               </span>
             </div>
             <div class="col-xs-6 team2 teams">
               <span class="team-icon ban"></span>
-              <span class="team-name cheers">Banglore</span><br/>
+              <span class="team-name ">Banglore</span><br/>
               <span class="team-score">105-5 *
                 <span class="content">121</span>
               </span>
@@ -128,7 +134,7 @@
                     <div class="col-sm-12">
                         <div class="row">
                           <div class="col-xs-4 over ball-icon">Over: 3</div>
-                          <div class="col-xs-4 "><span class="icon-timer">40</span></div>
+                          <div class="col-xs-4"></div>
                           <div class="col-xs-4 px-5 coin text-right">10</div>
                         </div>
 
@@ -242,7 +248,7 @@
                   prevEl: '.swiper-button-prev',
                 },
             });
-            swiper.on('slideChange', function () {
+            swiper.on('slideChange', function () {debugger;
               console.log('slide changed');
               if(swiper.realIndex==0){
                 $('.swiper-slide:first').addClass('moveLeft');
@@ -257,10 +263,7 @@
       <div class="foot-card foot-card1">
     </div>
   </div>
-  <button id="scratch1">scratch</button>
-  <button id="scratch2">congratulations</button>
-  <button id="scratch3">King</button>
-  <button id="scratch4">scratch</button>
+ 
 <!-- claim modal-->
 <div id="scratchModal" class="modal fade claim" role="dialog">
   <div class="modal-dialog modal-lg">
