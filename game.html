@@ -53,11 +53,16 @@
  
 <div class="container main-area register bg py-2">
   <div> <!--class="row center-border" -->
-   <div class="row">
+   <div class="row" style="position: absolute;top: 2rem;display: none">
       <button id="scratch1">scratch</button>
       <button id="scratch2">congratulations</button>
       <button id="scratch3">King</button>
-      <button id="scratch4">scratch</button>
+      <button id="scratch4">Innings</button>
+      <button id="scratch5">select-scratch</button>
+      <button id="scratch6">king Danger</button>
+      <button id="scratch7">important details</button>
+      <button id="scratch8">Locked</button>
+      
    </div>
     <div class="right-partition">
       <div class="card-panel pb-4">
@@ -133,7 +138,7 @@
                     <div class="col-sm-12">
                         <div class="row">
                           <div class="col-xs-4 over ball-icon">Over: 3</div>
-                          <div class="col-xs-4 "><span class="icon-timer">40</span></div>
+                          <div class="col-xs-4 "><span id="countdown" class="icon-timer">40</span></div>
                           <div class="col-xs-4 px-5 coin text-right">10</div>
                         </div>
 
@@ -194,31 +199,34 @@
                         <p class="red-t no-bowl">No bowl was bowled above 130 kmph</p>
                       </div>
                 </div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
-                <div class="swiper-slide">Slide 10</div>
+                <div class="swiper-slide">
+                  <div class="col-sm-12">
+                        <div class="row">
+                          <div class="col-xs-4 over ball-icon">Pre-match</div>
+                          <div class="col-xs-4 "></div>
+                          <div class="col-xs-4 px-5 coin text-right">10</div>
+                        </div>
+
+                        <div class="col my-2 text-center font-weight-bold question">
+                          <p>
+                            Who do you think will win the toss?
+                          </p>
+                        </div>
+
+                        <div class="col my-5 text-center answer font-weight-bold ">
+                          <button type="submit" class="btn btn-submit mt-3 btn-option">Mumbai</button>
+                          <button type="submit" class="btn btn-submit mt-3 btn-option">Bangalore</button>
+                        </div>
+
+                      </div>
+
+                </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
       </div>
         <style>
-        body, html {
-            padding: 0;
-            margin: 0;
-            position: relative;
-            height: 100%;
-        }
-        .swiper-slide {
-            background: #f1f1f1;
-            color:#000;
-            text-align: center;
-            line-height: 300px;
-        }
-        .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
-          background-image: none !important;
-        }
+        
         </style>
         <script src="js/swiper.min.js"></script>
         <script>
@@ -259,7 +267,16 @@
 
       <!-- end carousal-->
       <!-- scratch box -->
-      <div class="foot-card foot-card1">
+    <div class="foot-card foot-card1" style="display: block;">
+    </div>
+    <div class="foot-card foot-card2" style="display: none">
+    </div>
+    <div class="foot-card foot-card3" style="display: none">
+      <div class="row">
+        <div class="text-center over ball-icon pt-1">Over: 3</div>
+        <div class="text-center pt-1">Your points: 300</div>
+        <p class="text-center won-txt pt-1">You won <span class="foot-coin"><img src="img/coin.png"> 1000</span>for your last answer!</p>
+      </div>
     </div>
   </div>
   
@@ -303,7 +320,7 @@
 
 <!-- good modal-->
 <div id="kingModal" class="modal fade claim" role="dialog">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog modal-lg king">
     <div class="modal-content">
       <div class="modal-header">
         <img src="img/icon/icon.png">        
@@ -332,6 +349,163 @@
 </div> 
 <!-- end Modal -->
 
+
+<!-- Innings modal-->
+<div id="inningsModal" class="modal fade claim" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="innings-title mt-4 text-center"></p>
+        <button type="button" class="close" data-dismiss="modal"></button>        
+      </div>
+      <div class="modal-body innings">
+        
+        <div class="form-group  mx-5 text-center won-title">
+          <div class="mt-5 my-5">YOU WON <br> <span class="ball-icon score">3000</span> </div>
+        </div>
+        
+        <div class="form-group here-container my-5 mx-5 text-center">
+          <p class="font-weight-bold">HERE IS YOUR</p>
+          <h4 class="scratch-card-text text-center font-weight-bold red-t">  SCRATCH CARD</h4>
+        </div>
+        
+        <div class="form-group mt-3 px-5 go-btn">
+          <button type="submit" class="btn btn-submit btn-mobile-submit">SCRATCH YOUR CARD</button>
+        </div>
+        
+      </div>      
+    </div>
+
+  </div>
+</div> 
+<!-- end Modal -->
+
+<!-- Innings modal-->
+<div id="selectCardModal" class="modal fade claim" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="scratch-title mt-4 text-center"></p>
+        <button type="button" class="close" data-dismiss="modal"></button>        
+      </div>
+      <div class="modal-body select mb-5">
+        
+        <div class="form-group mx-5 text-center ">
+          <h4 class="pt-5 select-txt font-weight-bold">Select a Scratch Card</h4>
+        </div>
+        
+        <div class="row px-5">
+          <div class="col-md-12 card-list pl-5 py-3">
+            3rd March 2019
+          </div>
+          <div class="col-md-12 card-list pl-5 py-3">
+            3rd March 2019
+          </div>
+          <div class="col-md-12 card-list pl-5 py-3">
+            3rd March 2019
+          </div>
+          <div class="col-md-12 card-list pl-5 py-3">
+            3rd March 2019
+          </div>
+          <div class="col-md-12 card-list pl-5 py-3">
+            3rd March 2019 <span class="expired">expired</span>
+          </div>
+
+        </div>
+        
+      </div>      
+    </div>
+
+  </div>
+</div> 
+<!-- end Modal -->
+
+<!-- kingDangerModal modal-->
+<div id="kingDangerModal" class="modal fade claim" role="dialog">
+  <div class="modal-dialog modal-lg king">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img src="img/icon/icon.png">        
+        <p class="good-title text-center"></p>
+        <button type="button" class="close" data-dismiss="modal"></button>        
+      </div>
+      <div class="modal-body">
+        
+        <div class="form-group pt-4 my-5 mx-5 text-center">
+          <img src="img/kingdanger.png">
+        </div>
+        
+        <div class="form-group pt-4 my-5 mx-5 text-center">
+          <p class="won-title">You won</p>
+          <p class="won-point text-center">100</p>
+        </div>
+        
+        <div class="form-group mt-3 go-btn">
+          <button type="submit" class="btn btn-submit btn-mobile-submit">CONTINUE TO PLAY</button>
+        </div>
+        
+      </div>      
+    </div>
+
+  </div>
+</div> 
+<!-- end Modal -->
+
+
+<!-- importantModal modal-->
+<div id="importantModal" class="modal fade claim" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="scratch-title mt-4 text-center"></p>
+        <button type="button" class="close" data-dismiss="modal"></button>        
+      </div>
+      <div class="modal-body">        
+        <div class="claim-list">
+            <p class="pt-5 text-center font-weight-bold">Important Points:</p>
+            <ul>
+              <li>Maximize the number of points to win maximum rewards.</li>
+              <li>You can spin the wheel only at the end of the innings.</li>
+              <li>Physical rewards will be shipped to the address provided by you.</li>
+            </ul>
+        </div>
+
+         <div class="form-group mt-3 mx-5 go-btn">
+          <button type="submit" class="btn btn-submit btn-mobile-submit">Scratch your card</button>
+        </div>
+      </div>
+      </div>      
+    </div>
+</div> 
+<!-- end Modal -->
+
+<!-- LockedModal modal-->
+<div id="LockedModal" class="modal fade claim" role="dialog">
+  <div class="modal-dialog modal-lg lock">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="scratch-title mt-4 text-center"></p>
+        <button type="button" class="close" data-dismiss="modal"></button>        
+      </div>
+      <div class="modal-body">        
+        <div class="claim-list">
+            <p class="pt-5 text-center font-weight-bold locked-icon">LOCKED</p>
+            <p class="text-center"> Complete the innnings to unlock it</p>
+            <ul>
+              <li>Maximize the number of points to win maximum rewards.</li>
+              <li>You can spin the wheel only at the end of the innings.</li>
+              <li>Physical rewards will be shipped to the address provided by you.</li>
+            </ul>
+        </div>
+
+         <div class="form-group mt-3 mx-5 go-btn">
+          <button type="submit" class="btn btn-submit btn-mobile-submit">Scratch your card</button>
+        </div>
+      </div>
+      </div>      
+    </div>
+</div> 
+<!-- end Modal -->
  <!-- end main partion -->
 </div>
 
@@ -340,26 +514,47 @@
   <link rel="stylesheet" type="text/css" href="css/iplStyle.css">
   <link rel="stylesheet" type="text/css" href="css/game.css">
   <script type="text/javascript">
-     
+     var timeleft = 90;
+    var downloadTimer = setInterval(function(){
+      document.getElementById("countdown").innerHTML = timeleft;
+      timeleft -= 1;
+      if(timeleft <= 0){
+        clearInterval(downloadTimer);
+        document.getElementById("countdown").innerHTML = "0"
+      }
+    }, 1000);
      $(document).on('click','#scratch1',function(){
         $('#scratchModal').modal();
         cardCall();
      })
 
      $(document).on('click','#scratch2',function(){
-        $('#scratchModal .modal-dialog').addClass('congratulation');
-       
+        $('#scratchModal .modal-dialog').addClass('congratulation');       
      })
 
      $(document).on('click','#scratch3',function(){
-        $('#kingModal').modal();
-       
+        $('#kingModal').modal();       
      })
 
      $(document).on('click','#scratch4',function(){
-        $('#scratchModal').modal();
-       
-     })
+        $('#inningsModal').modal();       
+     });
+     
+     $(document).on('click','#scratch5',function(){
+        $('#selectCardModal').modal();       
+     });
+
+     $(document).on('click','#scratch6',function(){
+        $('#kingDangerModal').modal();       
+     });
+
+     $(document).on('click','#scratch7',function(){
+        $('#importantModal').modal();       
+     });
+
+     $(document).on('click','#scratch8',function(){
+        $('#LockedModal').modal();       
+     });
   </script>
 </body>
 </html>
