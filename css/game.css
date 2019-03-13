@@ -2,6 +2,21 @@ body{
     background-image: url('../img/game-bg.png');
     background-size: 100% 100%;
   }
+  body, html {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            height: 100%;
+        }
+        .swiper-slide {
+            background: #f1f1f1;
+            color:#000;
+            text-align: center;
+            line-height: 300px;
+        }
+        .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+          background-image: none !important;
+        }
   .navbar-inverse .navbar-toggle .icon-bar{
     background-color: #fff !important;
   }
@@ -21,7 +36,7 @@ body{
       text-align: center;
     }
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-      left:-7rem;
+      left:-16.5rem;
     }
     .swiper-slide.swiper-slide-next {
     margin-top: 1rem;
@@ -281,7 +296,7 @@ body{
   height: 2rem;
   width: 2rem;
   background: url(../img/coin.png);
-  top: 0.2rem;
+  top: 0.5rem;
   left: 2.5rem
 }
 .game-top{
@@ -292,7 +307,7 @@ body{
   position: absolute;
   right: -8rem;
   top: 1.3rem;
-  margin-right: -8rem;
+  margin-right: -4rem;
 }
 .question{
   font-size: 1.7rem;
@@ -350,13 +365,13 @@ body{
 }
 .good-title:before{
   content: '';
-  position: absolute;
-  display: inline-block;
-  height: 8rem;
-  width: 29rem;
-  top: 8rem;
-  left: 6rem;
-  background: url(../img/king-good.png) no-repeat;
+    position: absolute;
+    display: inline-block;
+    height: 8rem;
+    width: 29rem;
+    top: 8rem;
+    left: 6rem;
+    background: url(../img/king-good.png) no-repeat;
 }
 
 .canvas {
@@ -421,11 +436,11 @@ body{
   content: '';
   display: inline-block;
   background: url(../img/celeb-lg.png) no-repeat;
-  background-size: 100% 100%;
-  height: 14rem;
+  height: 37rem;
   width: 39rem;
   top: 7rem;
   z-index: 999;
+  background-size: 100% 97%;
 }
 .congratulation .sms-alert{
   margin-top: 11rem;
@@ -445,7 +460,7 @@ body{
   content: '';
     position: absolute;
     top: 0.2rem;
-    left: 7rem;
+    left: 4rem;
     height: 3.5rem;
     width: 3.5rem;
     background: url(../img/coin.png) no-repeat;
@@ -489,4 +504,134 @@ body{
     background:url('../img/cheers.png') no-repeat;
     background-size:contain;
 
+}
+.innings-title{
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 8rem;
+  width: 29rem;
+  top: 1rem;
+  left: 5rem;
+  background: url(../img/innings-title.png) no-repeat;
+  background-position: center;
+}
+.innings .ball-icon:before {
+    content: '';
+    position: absolute;
+    height: 2rem;
+    width: 3rem;
+    background: url(../img/cricketBall.png) no-repeat;
+    left: -2.8rem;
+    top: 0rem;
+}
+.innings .won-title{
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 5rem;
+}
+.innings .score {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.here-container{
+  margin-top: 4rem !important;
+}
+.modal-body.select{
+  padding-top: 7rem;
+}
+.select .select-txt{
+  color: #4a4a4a;
+}
+.card-list {
+    position: relative;
+    padding: 1.6rem 0 1.6rem 7rem !important;
+    border: 0.5px solid #979797;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+}
+.card-list:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    background: url(../img/cheers.png) no-repeat;
+    height: 3rem;
+    width: 3rem;
+    top: 1rem;
+    left: 3rem;
+}
+span.expired {
+    color: #df0827;
+    border: 1px solid #df0827;
+    border-radius: 15px;
+    padding: 0.2rem 1.1rem;
+    position: absolute;
+    right: 1rem;
+    top: 1.3rem;
+    font-size: 1.5rem !important;
+}
+.modal-dialog.modal-lg.king{
+    position:relative;
+}
+.modal-dialog.modal-lg.king:before {
+   content: '';
+    position: absolute;
+    top: -3rem;
+    left: -3rem;
+    height: 70rem;
+    width: 42rem;
+    background: url(../img/sparkle.png) no-repeat;
+    background-size: contain;
+}
+.modal-dialog.modal-lg.king{
+  margin-right:4rem;
+  margin-left:4rem;
+}
+
+.king .modal-header .close{
+  left: 15rem !important;
+}
+.imp-title{
+  margin-top: 5rem !important;
+}
+.locked-icon{
+  position: relative;
+  font-weight: 750 !important;
+}
+.locked-icon:before{
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: -7rem;
+  left: 15.7rem;
+  background: url(../img/lock.svg) no-repeat;
+  height: 8rem;
+  width: 8rem;
+}
+.lock .claim-list{
+  margin-top: 12rem !important;
+}
+.foot-card3{
+  background: #fff;
+  padding: 1.2rem 0;
+  border-radius: 2px;
+}
+.foot-card3 .ball-icon:before {
+    content: '';
+    position: absolute;
+    height: 2rem;
+    width: 3rem;
+    background: url(../img/cricketBall.png) no-repeat;
+    left: 17.4rem;
+    top: 0rem;
+}
+.foot-card3 .won-txt{
+  color: #28ae62;
+}
+.foot-card3 .foot-coin{
+  color:#4a4a4a !important;
+}
+.icon-kf{
+  
 }
