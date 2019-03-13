@@ -464,3 +464,29 @@ body{
 .btn-submit{
   padding: 1rem !important;
 }
+.team-name.cheers{
+    position:relative;
+}
+.team1 .team-name.cheers:after {
+    content:'';
+    position:absolute;
+    top:-0.5rem;
+    left:5rem;
+    height:2.5rem;
+    width:2em;
+  
+    background:url('../img/cheers.png') no-repeat;
+    background-size:contain;
+
+}
+.team2 .team-name.cheers:after {
+    content:'';
+    position:absolute;
+    top:-0.5rem;
+    right:5.5rem;
+    height:2.5rem;
+    width:2em;  
+    background:url('../img/cheers.png') no-repeat;
+    background-size:contain;
+
+}
