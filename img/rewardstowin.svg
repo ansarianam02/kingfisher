@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="161px" viewBox="0 0 344 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="322.602792%" id="linearGradient-1">
+            <stop stop-color="#F1C40F" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rewards" transform="translate(-21.000000, -296.000000)">
+            <g id="Group" transform="translate(22.000000, 296.000000)">
+                <g id="Group-4">
+                    <path d="M19.7521533,12 L334.072898,12 C338.491176,12 342.072898,15.581722 342.072898,20 C342.072898,20.2534831 342.06085,20.5068229 342.036796,20.7591621 L329.358512,153.759162 C328.967145,157.86475 325.518812,161 321.394614,161 L7.93203829,161 C3.51376029,161 -0.0679617112,157.418278 -0.0679617112,153 C-0.0679617112,152.763588 -0.0574821786,152.527291 -0.0365539701,152.291807 L11.7835611,19.2918069 C12.1503894,15.1642523 15.6083301,12 19.7521533,12 Z" id="Rectangle" fill="#DF0827" fill-rule="nonzero" transform="translate(171.000000, 86.500000) scale(-1, 1) translate(-171.000000, -86.500000) "></path>
+                    <g id="Group-7" transform="translate(34.000000, 0.000000)">
+                        <path d="M6,0 L144,0 C147.313708,-6.08718376e-16 150,2.6862915 150,6 L150,22 C150,25.3137085 147.313708,28 144,28 L6,28 C2.6862915,28 1.87739444e-15,25.3137085 0,22 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 Z" id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <text id="Rewards-you-could-WI" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="12" font-weight="bold" letter-spacing="0.144" fill="#FFFFFF">
+                            <tspan x="12.32" y="17">Rewards you could WIN</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="1.-BookMyShow-movie" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="14" font-weight="500" line-spacing="22" letter-spacing="0.168" fill="#FFFFFF">
+                    <tspan x="47" y="59">1. BookMyShow movie vouchers</tspan>
+                    <tspan x="47" y="82">2. Uber ride vouchers</tspan>
+                    <tspan x="47" y="105">3. Cash Vouchers</tspan>
+                    <tspan x="47" y="128">4. Food Vouchers</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
