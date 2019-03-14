@@ -14,6 +14,13 @@ html, body {
     overflow: auto;
     /*overflow: hidden;*/
 }
+body.register-page ,body.otp-page,body.info-page{
+    background-image: url(../img/regist-mbl-bg.png) !important;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-position: bottom;
+    background-size: 100% 44%;
+}
 body.register-page{
     
 }
