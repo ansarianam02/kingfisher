@@ -90,7 +90,7 @@ body{
   position: relative;
 } 
 .stopwatch:before{
-  background: url(../img/stopwatch.png);
+  background: url(../img/stopwatch.svg);
     background-size: contain;
     position: absolute;
     content: '';
@@ -113,7 +113,7 @@ body{
     position: absolute;
     height: 8rem;
     width: 6rem;
-    background: url(../img/batsman-l.png) no-repeat;
+    background: url(../img/batsman-l.svg) no-repeat;
     left: 10rem;
     top: -10rem;
     background-size: 100% 100%;
@@ -139,7 +139,7 @@ body{
   font-size: 2rem;  
 }
 .team-vs-mum:before{
-  background: url(../img/mum.png) no-repeat;
+  background: url(../img/mum.svg) no-repeat;
    background-repeat:no-repeat;
    content: '';
    position:absolute;
@@ -150,7 +150,7 @@ body{
 }
 
 .team-vs-ban:after{
-   background: url(../img/ban.png) no-repeat;
+   background: url(../img/ban.svg) no-repeat;
    content: '';
    position:absolute;
    height:5rem;
@@ -201,7 +201,7 @@ body{
     width: 3.8rem;
     top: 0.3rem;
     left: -4.9rem;
-    background: url(../img/mum.png) no-repeat;
+    background: url(../img/mum.svg) no-repeat;
     background-size: 100% 100%;
 }
 .team2 .team-icon:after{
@@ -211,7 +211,7 @@ body{
     width: 3rem;
     top: 0.2rem;
     right: -10rem;
-    background: url(../img/ban.png) no-repeat;
+    background: url(../img/ban.svg) no-repeat;
     background-size: 100% 100%;
 }
 .team-score {
@@ -248,7 +248,7 @@ body{
   position: absolute;
   height: 2rem;
   width:3rem;
-  background:url('../img/cricketBall.png') no-repeat;
+  background:url('../img/cricketBall.svg') no-repeat;
   left: 1.4rem;
   top: 0.5rem;
 }
@@ -295,7 +295,7 @@ body{
   position: absolute;
   height: 2rem;
   width: 2rem;
-  background: url(../img/coin.png);
+  background: url(../img/coin.svg);
   top: 0.5rem;
   left: 2.5rem
 }
@@ -326,7 +326,7 @@ body{
     left:0.5rem;
     width:34rem;
     height:10rem;
-    background:url('../img/celeb.png') no-repeat;
+    background:url('../img/celeb.svg') no-repeat;
 }
 .won-card .btn-submit{
   background: #28ae62 !important;
@@ -346,7 +346,7 @@ body{
   height: 2.2rem;
   top: -0.3rem;
   left: -6.2rem;
-  background: url(../img/live.png) no-repeat;
+  background: url(../img/live.svg) no-repeat;
   background-size: contain;
   background-color: #df0827;
 }
@@ -361,7 +361,7 @@ body{
   width: 29rem;
   top: 1rem;
   left: 5rem;
-  background: url(../img/scratch-title.png) no-repeat;
+  background: url(../img/scratch-title.svg) no-repeat;
 }
 .good-title:before{
   content: '';
@@ -371,7 +371,7 @@ body{
     width: 29rem;
     top: 8rem;
     left: 6rem;
-    background: url(../img/king-good.png) no-repeat;
+    background: url(../img/king-good.svg) no-repeat;
 }
 
 .canvas {
@@ -402,7 +402,7 @@ body{
   position: absolute;
   height: 2rem;
   width:3rem;
-  background:url('../img/cricketBall.png') no-repeat;
+  background:url('../img/cricketBall.svg') no-repeat;
   left: 1rem;
 }
 .congratulation .congo-icon{
@@ -490,7 +490,7 @@ body{
     height:2.5rem;
     width:2em;
   
-    background:url('../img/cheers.png') no-repeat;
+    background:url('../img/cheers.svg') no-repeat;
     background-size:contain;
 
 }
@@ -501,7 +501,7 @@ body{
     right:5.5rem;
     height:2.5rem;
     width:2em;  
-    background:url('../img/cheers.png') no-repeat;
+    background:url('../img/cheers.svg') no-repeat;
     background-size:contain;
 
 }
@@ -513,7 +513,7 @@ body{
   width: 29rem;
   top: 1rem;
   left: 5rem;
-  background: url(../img/innings-title.png) no-repeat;
+  background: url(../img/innings-title.svg) no-repeat;
   background-position: center;
 }
 .innings .ball-icon:before {
@@ -521,7 +521,7 @@ body{
     position: absolute;
     height: 2rem;
     width: 3rem;
-    background: url(../img/cricketBall.png) no-repeat;
+    background: url(../img/cricketBall.svg) no-repeat;
     left: -2.8rem;
     top: 0rem;
 }
@@ -555,7 +555,7 @@ body{
     content: '';
     position: absolute;
     display: inline-block;
-    background: url(../img/cheers.png) no-repeat;
+    background: url(../img/cheers.svg) no-repeat;
     height: 3rem;
     width: 3rem;
     top: 1rem;
@@ -581,7 +581,7 @@ span.expired {
     left: -3rem;
     height: 70rem;
     width: 42rem;
-    background: url(../img/sparkle.png) no-repeat;
+    background: url(../img/sparkle.svg) no-repeat;
     background-size: contain;
 }
 .modal-dialog.modal-lg.king{
@@ -622,7 +622,7 @@ span.expired {
     position: absolute;
     height: 2rem;
     width: 3rem;
-    background: url(../img/cricketBall.png) no-repeat;
+    background: url(../img/cricketBall.svg) no-repeat;
     left: 17.4rem;
     top: 0rem;
 }
