@@ -64,12 +64,16 @@
         <!--main partion -->
               
        <div class="form-group my-4 py-4 text-center">
-        <button class="btn btn-claim claim1">CLAIM YOUR ASSURED REWARD</button>
+        <!-- <button class="btn btn-claim claim1">CLAIM YOUR ASSURED REWARD</button> -->
+        <img class="claimoption1" src="img/claimoption1.svg">
+        <img class="claimoption2" style="margin-right: 2rem; margin-top: 2rem" src="img/claimoption2.svg">
+        <img class="claimoption3" style="margin-top: 2rem" src="img/claimoption3.svg">
+
       </div>
        
-       <div class="form-group my-4 py-4 text-center">
+      <!--  <div class="form-group my-4 py-4 text-center">
         <button class="btn btn-claim claim2">YOU HAVE WON A SCRATCH CARD <br/>WHICH IS PENDING TO</br> BE REDEEMED</button>
-      </div>
+      </div> -->
       
        
       </div>
@@ -89,7 +93,8 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"></button>
-        <h3 class="my-4  font-weight-bold text-center claim-head red-t"> Enter voucher <br/> <span class="font-weight-bold"> code to begin </span></h3>
+        <img src="img/entervoucher.svg" style="margin-top: 2rem;">
+        <!-- <h3 class="my-4  font-weight-bold text-center claim-head red-t"> Enter voucher <br/> <span class="font-weight-bold"> code to begin </span></h3> -->
       </div>
       <div class="modal-body">
         <div class="err-container pt-4" style="display: ">
@@ -104,12 +109,13 @@
           </div>
         </div> 
         <div class="form-group my-3 ">
-          <input type="number" class="form-control" id="vouchercode"  placeholder="Enter voucher code here**">
+          <input type="number" class="form-control" id="vouchercode"  placeholder="Enter voucher code here*">
         </div>
-        <ul class="claim-list">
+        <img src="img/voucherintro.svg" style="margin-top: 2rem;">
+        <!-- <ul class="claim-list">
           <li>This voucher code can be used to play one inninngs of the match.</li>
           <li>Bring out your cricket expert and answer questions to win exciting rewards</li>
-        </ul>
+        </ul> -->
       </div>
       <div class="modal-footer">
         <div class="form-group px-5">
@@ -131,12 +137,14 @@
       </div>
       <div class="modal-body">
         <div class="form-group my-3 mx-5 nolive text-center">
-          <p class="pt-5 font-weight-bold">No LIVE match is going. We’ll send you a reminder once it begins.</p>
+          <img src="img/nolivepop.svg"><br><br>
+          <img src="img/nolivepop1.svg"><br><br>
+          <!-- <p class="pt-5 font-weight-bold">No LIVE match is going. We’ll send you a reminder once it begins.</p> -->
         </div>
-        <ul class="claim-list">
+        <!-- <ul class="claim-list">
           <li>You can enter a match 30 mins prior to when it begins.</li>
           <li>We’ll send you an email reminder once a match begins.</li>
-        </ul>
+        </ul> -->
       </div>
       <div class="modal-footer">
         <div class="form-group px-5">
@@ -164,17 +172,20 @@
   <link rel="stylesheet" type="text/css" href="css/utilities.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css"> 
   <link rel="stylesheet" type="text/css" href="css/iplStyle.css">
- <script type="text/javascript" src="js/main.js"></script> 
+ <!-- <script type="text/javascript" src="js/main.js"></script>  -->
 </body>
 <script type="text/javascript">
   $(function(){
     
-    $(document).on('click','.claim1',function(){
+    $(document).on('click','.claimoption3',function(){
         $('#claimModal').modal();
     })
-    $(document).on('click','.claim2',function(){
-        $('#claimModal2').modal();
+    $(document).on('click','.claimoption2',function(){
+        $('#claimModal').modal();
     })
+    // $(document).on('click','.claimoption1',function(){
+    //     $('#claimModal2').modal();
+    // })
   })
 </script>
 </html>
