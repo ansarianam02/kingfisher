@@ -613,9 +613,10 @@ span.expired {
   margin-top: 12rem !important;
 }
 .foot-card3{
-  background: #fff;
-  padding: 1.2rem 0;
-  border-radius: 2px;
+    background: url(../img/foot3.svg);
+    background-size: 100% 100%;
+    padding: 1.2rem 0;
+    border-radius: 2px;
 }
 .foot-card3 .ball-icon:before {
     content: '';
