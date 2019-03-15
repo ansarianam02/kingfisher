@@ -37,7 +37,6 @@ body{
     }
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
           left: 2.6rem !important;
-          right: 0 !important;
     }
     .swiper-slide.swiper-slide-next {
     margin-top: 1rem;
