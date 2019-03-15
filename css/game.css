@@ -176,7 +176,7 @@ body{
     position:relative;
 }
 .team1{
-    padding-left:6rem;
+    padding-left: 16%;
 }
 .team1.teams:after {
     content: '';
@@ -191,7 +191,7 @@ body{
 }
 .team2{
     padding-right:2rem;
-    padding-left:4.5rem;
+    padding-left: 14%;
 }
 
 .team1 .team-icon:before{
@@ -249,7 +249,7 @@ body{
   height: 2rem;
   width:3rem;
   background:url('../img/cricketBall.svg') no-repeat;
-  left: 1.4rem;
+  left: 7%;
   top: 0.5rem;
 }
 .ball-icon{
@@ -257,7 +257,8 @@ body{
 }
 
 .over{
-  padding-left: 3.8rem
+  padding-left: 10%;
+  white-space: nowrap;
 }
 .result.won span{
   color: #3c763d;
@@ -265,6 +266,7 @@ body{
   padding: 0.5rem 1rem;
   font-size: 1.4rem;
   border-radius: 2rem;
+  white-space: nowrap;
 }
 .result.lost span {
   color: #a94442;
@@ -273,6 +275,7 @@ body{
   font-size: 1.4rem;
   border-radius: 2rem;
   font-weight: bold; 
+  white-space:nowrap
 }
 .quest{
   font-size: 2rem;
@@ -323,10 +326,11 @@ body{
     position:absolute;
     display:inline-block;
     top:12rem;
-    left:0.5rem;
-    width:34rem;
+    left: 0.5rem;
+    width: 97%;
     height:10rem;
     background:url('../img/celeb.svg') no-repeat;
+    background-size: 100% 100%;
 }
 .won-card .btn-submit{
   background: #28ae62 !important;
@@ -360,24 +364,25 @@ body{
   height: 8rem;
   width: 29rem;
   top: 1rem;
-  left: 5rem;
+  left: 4%;
   background: url(../img/scratch-title.svg) no-repeat;
 }
 .good-title:before{
   content: '';
-    position: absolute;
-    display: inline-block;
-    height: 8rem;
-    width: 29rem;
-    top: 8rem;
-    left: 6rem;
-    background: url(../img/king-good.svg) no-repeat;
+  position: absolute;
+  display: inline-block;
+  height: 8rem;
+  width: 94%;
+  top: 5rem;
+  left: 4%;
+  background: url(../img/king-good.svg) no-repeat;
+  background-size: 100% 100%;
 }
 
 .canvas {
   position: absolute;
   top: 5rem;
-  left: 7rem;
+  left: 10%;
   width: 24rem;
 }
 
@@ -419,7 +424,7 @@ body{
   content: '';
   display: inline-block;
   top: 7rem;
-  left: 7rem;
+  left: 14%;
   width: 15rem;
   height: 3rem;
   background: url(../img/congratulations.png) no-repeat;
@@ -437,7 +442,7 @@ body{
   display: inline-block;
   background: url(../img/celeb-lg.png) no-repeat;
   height: 37rem;
-  width: 39rem;
+  width: 100%;
   top: 7rem;
   z-index: 999;
   background-size: 100% 97%;
@@ -458,13 +463,13 @@ body{
 }
 .won-point:before{
   content: '';
-    position: absolute;
-    top: 0.2rem;
-    left: 4rem;
-    height: 3.5rem;
-    width: 3.5rem;
-    background: url(../img/coin.png) no-repeat;
-    background-size: contain;
+  position: absolute;
+  top: 0.2rem;
+  left: 4%;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../img/coin.png) no-repeat;
+  background-size: contain;
 }
 .icon-timer{
     display: inline-block;
@@ -510,11 +515,12 @@ body{
   position: absolute;
   display: inline-block;
   height: 8rem;
-  width: 29rem;
+  width: 100%;
   top: 1rem;
-  left: 5rem;
+  left: 0;
   background: url(../img/innings-title.svg) no-repeat;
   background-position: center;
+  background-size: 82% 100%;
 }
 .innings .ball-icon:before {
     content: '';
@@ -590,7 +596,7 @@ span.expired {
 }
 
 .king .modal-header .close{
-  left: 15rem !important;
+  left: 44% !important;
 }
 .imp-title{
   margin-top: 5rem !important;
@@ -604,7 +610,7 @@ span.expired {
   position: absolute;
   display: inline-block;
   top: -7rem;
-  left: 15.7rem;
+  left: 40%;
   background: url(../img/lock.svg) no-repeat;
   height: 8rem;
   width: 8rem;
@@ -635,4 +641,9 @@ span.expired {
 }
 .icon-kf{
   
+}
+
+
+#kingModal .modal-body .form-group img {
+    margin-left: -6% !important;
 }
