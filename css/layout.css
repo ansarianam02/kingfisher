@@ -62,6 +62,9 @@ section.footer-section {
 .register-page .right-partition,.info-page .register-page{
   margin-top:-3rem !important;
 }
+a.left.carousel-control , a.right.carousel-control{
+    background-image:none !important;
+}
 .glyphicon-chevron-right:before {
     content: '>' !important;
     font-size: 3rem;
