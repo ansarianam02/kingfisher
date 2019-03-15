@@ -59,7 +59,7 @@ section.footer-section {
     height: 33rem;
     top: -28rem;
 }
-.register-page .right-partition,.info-page .register-page{
+.register-page .right-partition,.claim-page .right-partition,.otp-page .right-partition, .info-page .register-page{
   margin-top:-3rem !important;
 }
 a.left.carousel-control , a.right.carousel-control{
