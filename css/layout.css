@@ -62,6 +62,15 @@ section.footer-section {
 .register-page .right-partition,.info-page .register-page{
   margin-top:-3rem !important;
 }
+.glyphicon-chevron-right:before {
+    content: '>' !important;
+    font-size: 3rem;
+}
+
+.glyphicon-chevron-left:before {
+    content: '<' !important;
+    font-size: 3rem;
+}
 /*.otp.section.footer-section::before {
     background-image: url(../img/regist-mbl-bg.png) !important;
     background-repeat: no-repeat;
@@ -75,6 +84,12 @@ section.footer-section {
 }
 
 */
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 23rem !important;
+    width: 100% !important;
+}
+
 .color-white{
   color: white !important;
 }
@@ -196,10 +211,10 @@ section.game.footer-section::before{
 }
 
 .banner-container {
-   background: url(../img/mbl-banner.png);
+   /*background: url(../img/mbl-banner.png);
    background-size: 100% 92%;
    background-position: 0 2rem;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat;*/
    margin-top: -9rem;
 }
 .navbar-inverse{
@@ -211,7 +226,8 @@ section.game.footer-section::before{
 }*/
 .banner-container .fake{
     height: 16em;
-    width: 75%;
+    width: 100%;
+    margin-top: 8rem;
 }
 .font-weight-bold {
     font-weight: 700!important;
@@ -368,3 +384,4 @@ button.btn:active {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {}
+
