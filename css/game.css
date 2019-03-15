@@ -36,7 +36,7 @@ body{
       text-align: center;
     }
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-      margin-left: 0rem !important;
+     left: 1.15rem !important;
   }
     .swiper-slide.swiper-slide-next {
     margin-top: 1rem;
