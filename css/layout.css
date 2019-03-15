@@ -59,7 +59,7 @@ section.footer-section {
     height: 33rem;
     top: -28rem;
 }
-.register-page .right-partition,.claim-page .right-partition,.otp-page .right-partition, .info-page .register-page{
+.register-page .right-partition,.claim-page .right-partition,.otp-page .right-partition, .info-page .right-partition{
   margin-top:-3rem !important;
 }
 a.left.carousel-control , a.right.carousel-control{
@@ -227,10 +227,12 @@ section.game.footer-section::before{
 /*.otp-field ,.otp-warning {
   margin:4rem 0 !important;
 }*/
+.navbar-inverse{
+  z-index: 5;
+}
 .banner-container .fake{
     height: 16em;
-    width: 100%;
-    margin-top: 8rem;
+    width: 100%;    
 }
 .font-weight-bold {
     font-weight: 700!important;
