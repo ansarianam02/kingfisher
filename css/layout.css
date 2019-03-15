@@ -78,6 +78,9 @@ section.footer-section {
 .color-white{
   color: white !important;
 }
+.container-fluid{
+  position: relative;
+}
 section.game.footer-section::before{
   background: none !important;
 }
