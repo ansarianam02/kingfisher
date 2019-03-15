@@ -106,7 +106,8 @@ section.game.footer-section::before{
   padding-left: 2.5rem;
 }
 .navbar-collapse{
- /* margin-left: 17.6rem !important; */
+  right: 0;
+  margin-right: 2.4rem !important;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border: none !important;
@@ -115,7 +116,6 @@ section.game.footer-section::before{
      position: absolute; 
      z-index: 99; 
     width: 20rem;
-     right: 4rem;
 }
 
 .navbar-inverse .navbar-nav > li > a{
