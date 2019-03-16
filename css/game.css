@@ -3,20 +3,21 @@ body{
     background-size: 100% 100%;
   }
   body, html {
-            padding: 0;
-            margin: 0;
-            position: relative;
-            height: 100%;
-        }
-        .swiper-slide {
-            background: #f1f1f1;
-            color:#000;
-            text-align: center;
-            line-height: 300px;
-        }
-        .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
-          background-image: none !important;
-        }
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+}
+.swiper-slide {
+    background: #f1f1f1;
+    color:#000;
+    text-align: center;
+    line-height: 300px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  background-image: none !important;
+}
   .navbar-inverse .navbar-toggle .icon-bar{
     background-color: #fff !important;
   }
@@ -28,7 +29,7 @@ body{
   }
   .swiper-container {
     width: 138%;
-    height: 350px;
+    height: 382px;
     margin: 18px auto 2px;
   }
   .item {
@@ -73,6 +74,7 @@ body{
     background-repeat: no-repeat;
     height: 10.5rem;
     background-position: center;
+    display: none !important;
   }
   .foot-card2{
     margin-top: 0.8rem !important;
