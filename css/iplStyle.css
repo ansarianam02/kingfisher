@@ -27,17 +27,17 @@
   margin-top: 6rem !important;
 }
 .regist-head:before{
-   background: url(../img/bottle1.png) no-repeat;
+   background: url(../img/cricket_bat.svg) no-repeat;
    background-repeat:no-repeat;
    content: '';
    position:absolute;
    height:5rem;
    width:6rem;
-   left:2%;
+   left:10%;
    top:0;
 }
 .regist-head:after{
-   background: url(../img/bottle2.png) no-repeat;
+   background: url(../img/cricket_bat.svg) no-repeat;
    content: '';
    position:absolute;
    height:5rem;
