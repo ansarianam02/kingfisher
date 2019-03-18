@@ -289,7 +289,7 @@ body{
   font-size: 1.3rem;
   font-weight: normal !important;
   letter-spacing: 0.05rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
   display: inline-block;
 }
 .coin{
@@ -327,11 +327,11 @@ body{
     content:'';
     position:absolute;
     display:inline-block;
-    top:12rem;
+    /*top:12rem;*/
     left: 0.5rem;
     width: 97%;
-    height:10rem;
-    background:url('../img/celeb.svg') no-repeat;
+    height:30rem;
+    background:url('../img/celeb1.svg') no-repeat;
     background-size: 100% 100%;
 }
 .won-card .btn-submit{
