@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="298px" height="71px" viewBox="0 0 298 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Group</title>
+    <title>claimoption1.svg</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="290" height="63" rx="5"></rect>
@@ -13,14 +13,14 @@
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Reward-or-scratch" transform="translate(-40.000000, -315.000000)">
-            <g id="Group" transform="translate(44.000000, 317.000000)">
+        <g id="Reward-or-scratch" transform="translate(-40.000000, -345.000000)">
+            <g id="claimoption1.svg" transform="translate(44.000000, 347.000000)">
                 <g id="Rectangle" fill-rule="nonzero">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                     <rect stroke="#DF0827" stroke-width="1" stroke-linejoin="square" fill="#FBFBFB" fill-rule="evenodd" x="0.5" y="0.5" width="289" height="62" rx="5"></rect>
                 </g>
-                <text id="REDEEM-SCRATCH-CARD" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" letter-spacing="0.168" fill="#DF0827">
-                    <tspan x="71.574" y="36">REDEEM SCRATCH CARD</tspan>
+                <text id="PREDICT-TO-WIN" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" letter-spacing="0.168" fill="#DF0827">
+                    <tspan x="95.112" y="36">PREDICT TO WIN</tspan>
                 </text>
             </g>
         </g>
