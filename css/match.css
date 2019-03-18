@@ -37,7 +37,7 @@ section.footer-section::before{
   top: -9px;
 }
 .team.team2 {
-    padding-left: 6rem !important;
+    padding-left: 2rem !important;
 }
 .team2:after{
    background: url(../img/ban.png) no-repeat;

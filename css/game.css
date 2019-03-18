@@ -295,6 +295,9 @@ body{
 .coin{
   position: relative;
 }
+.navbar-header{
+  position: relative;
+}
 .coin:before{
   content: '';
   position: absolute;
@@ -302,17 +305,15 @@ body{
   width: 2rem;
   background: url(../img/coin.svg);
   top: 0.5rem;
-  left: 2.5rem
+  left: 2rem
 }
 .game-top{
-  position: relative;
   margin-left: -3rem;
 }
 .game-top .top-coin{
   position: absolute;
-  right: -8rem;
+  right: 13%;
   top: 1.3rem;
-  margin-right: -4rem;
 }
 .question{
   font-size: 1.7rem;
@@ -648,4 +649,11 @@ span.expired {
 
 #kingModal .modal-body .form-group img {
     margin-left: -6% !important;
+}
+/*to hide all slide contents except active one*/
+.swiper-slide > * {
+    visibility:hidden;
+}
+.swiper-slide.swiper-slide-active > * {
+    visibility:visible;
 }

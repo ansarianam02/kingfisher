@@ -88,6 +88,9 @@ a.left.carousel-control , a.right.carousel-control{
 }
 
 */
+.nowrap{
+  white-space: nowrap;
+}
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: 23rem !important;
