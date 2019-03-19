@@ -80,24 +80,27 @@ img.claimoption1, img.claimoption2 {
     width: 100%;
 }
 .leaderboardrank{
-  width: 352px;
-  height: 50px;
+  /*width: 352px;
+  height: 50px;*/
   border: solid 0.5px #d0d6da;
   background-color: #ffffff;
-  display: inline-flex;
+  /*display: inline-flex;*/
   padding-top: 1.5rem;
   margin-top: 10px;
 }
-
 .ovalrank {
-  width: 30px;
-  height: 30px;
+  content: '';
+  position: absolute;
+  width: 34px;
+  height: 34px;
   background-color: #df0827;
   border-radius: 100px;
-  margin-left: 5px;
-      position: relative;
-    bottom: 0.5rem;
-    padding-top: 0.6rem;
+  top: -0.7rem;
+  left: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  line-height: 2.5; 
 }
 
 .myrank{
