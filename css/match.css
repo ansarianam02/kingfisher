@@ -16,6 +16,10 @@ section.footer-section::before{
   position: relative;
   font-weight: bold;
   margin-bottom: 6px;
+  font-size: 13px;
+}
+.team1{
+  padding-left: 2rem;
 }
 .team1:after{
   content: 'Vs';
