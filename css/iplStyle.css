@@ -75,7 +75,10 @@
     padding: 0 3rem !important;
     font-size: 1.35rem !important;
 }
-
+img.claimoption1, img.claimoption2 {
+    overflow: hidden;
+    width: 100%;
+}
 .leaderboardrank{
   width: 352px;
   height: 50px;
