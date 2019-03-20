@@ -80,13 +80,13 @@ img.claimoption1, img.claimoption2 {
     width: 100%;
 }
 .leaderboardrank{
-  /*width: 352px;
-  height: 50px;*/
   border: solid 0.5px #d0d6da;
-  background-color: #ffffff;
-  /*display: inline-flex;*/
-  padding-top: 1.5rem;
-  margin-top: 10px;
+    background-color: #ffffff;
+    display: inline-flex;
+    padding-top: 1rem;
+    margin-top: 10px;
+    width: 95%;
+    padding-bottom: 1rem;
 }
 .ovalrank {
   content: '';
