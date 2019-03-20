@@ -178,7 +178,7 @@ body{
     position:relative;
 }
 .team1{
-    padding-left: 16%;
+    padding-left: 14%;
 }
 .team1.teams:after {
     content: '';
@@ -193,7 +193,7 @@ body{
 }
 .team2{
     padding-right:2rem;
-    padding-left: 14%;
+    padding-left: 16%;
 }
 
 .team1 .team-icon:before{
@@ -211,7 +211,7 @@ body{
     position: absolute;
     height: 3.8rem;
     width: 3rem;
-    top: 0.2rem;
+    top: 0rem;
     right: -10rem;
     background: url(../img/ban.svg) no-repeat;
     background-size: 100% 100%;
@@ -224,7 +224,7 @@ body{
     content: '';
     position: absolute;
     color: #ffffff;
-    top: 1.1rem;
+    top: 0.5rem;
     right: 6.5rem;
     font-size: 1rem;
 }
@@ -233,7 +233,7 @@ body{
     content: '';
     position: absolute;
     color: #ffffff;
-    top: 1rem;
+    top: 0.5rem;
     left: 5.5rem;
     font-size: 1rem;
 }
@@ -506,7 +506,7 @@ body{
     content:'';
     position:absolute;
     top:-0.5rem;
-    right:5.5rem;
+    right:7.5rem;
     height:2.5rem;
     width:2em;  
     background:url('../img/cheers.svg') no-repeat;
