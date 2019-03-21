@@ -466,13 +466,13 @@ body{
 }
 .won-point:before{
   content: '';
-  position: absolute;
-  top: 0.2rem;
-  left: 4%;
-  height: 3.5rem;
-  width: 3.5rem;
-  background: url(../img/coin.png) no-repeat;
-  background-size: contain;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    height: 3rem;
+    width: 3.5rem;
+    background: url(../img/coin.svg) no-repeat;
+    background-size: contain;
 }
 .icon-timer{
     display: inline-block;
