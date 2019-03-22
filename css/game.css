@@ -325,14 +325,14 @@ body{
   position: relative;
 }
 .won-card:before{
-    content:'';
-    position:absolute;
-    display:inline-block;
-    /*top:12rem;*/
+   content: '';
+    position: absolute;
+    display: inline-block;
+    top: 1rem;
     left: 0.5rem;
     width: 97%;
-    height:30rem;
-    background:url('../img/celeb1.svg') no-repeat;
+    height: 32rem;
+    background: url(../img/celeb1.svg) no-repeat;
     background-size: 100% 100%;
 }
 .won-card .btn-submit{
