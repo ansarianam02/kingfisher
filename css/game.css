@@ -224,8 +224,8 @@ body{
     content: '';
     position: absolute;
     color: #ffffff;
-    top: 0.5rem;
-    right: 6.5rem;
+    top: 4rem;
+    right: 4.5rem;
     font-size: 1rem;
 }
 
@@ -233,8 +233,8 @@ body{
     content: '';
     position: absolute;
     color: #ffffff;
-    top: 0.5rem;
-    left: 5.5rem;
+    top: 4rem;
+    left: 9.5rem;
     font-size: 1rem;
 }
 .card-panel{
