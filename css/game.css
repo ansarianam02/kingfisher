@@ -201,7 +201,7 @@ body{
     position: absolute;
     height: 3.8rem;
     width: 3.8rem;
-    top: 0.3rem;
+    top: -0.7rem;
     left: -4.9rem;
     background: url(../img/mum.svg) no-repeat;
     background-size: 100% 100%;
@@ -211,7 +211,7 @@ body{
     position: absolute;
     height: 3.8rem;
     width: 3rem;
-    top: 0rem;
+    top: -0.7rem;
     right: -10rem;
     background: url(../img/ban.svg) no-repeat;
     background-size: 100% 100%;
@@ -224,7 +224,7 @@ body{
     content: '';
     position: absolute;
     color: #ffffff;
-    top: 4rem;
+    top: 2.5rem;
     right: 4.5rem;
     font-size: 1rem;
 }
@@ -233,7 +233,7 @@ body{
     content: '';
     position: absolute;
     color: #ffffff;
-    top: 4rem;
+    top: 2.5rem;
     left: 9.5rem;
     font-size: 1rem;
 }
@@ -506,7 +506,7 @@ body{
     content:'';
     position:absolute;
     top:-0.5rem;
-    right:7.5rem;
+    right:2.5rem;
     height:2.5rem;
     width:2em;  
     background:url('../img/cheers.svg') no-repeat;
@@ -531,17 +531,18 @@ body{
     height: 2rem;
     width: 3rem;
     background: url(../img/cricketBall.svg) no-repeat;
-    left: -2.8rem;
-    top: 0rem;
+    left: -2.1rem;
+    top: 0.3rem;
 }
 .innings .won-title{
   font-size: 2rem;
   font-weight: 600;
-  padding-top: 5rem;
+  /*padding-top: 5rem;*/
 }
 .innings .score {
     font-size: 2rem;
     font-weight: 300;
+    left: 1rem;
 }
 .here-container{
   margin-top: 4rem !important;
