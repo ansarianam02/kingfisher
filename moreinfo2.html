@@ -192,7 +192,16 @@
   <link rel="stylesheet" type="text/css" href="css/utilities.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css"> 
   <link rel="stylesheet" type="text/css" href="css/iplStyle.css">
- <script type="text/javascript" src="js/main.js"></script> 
+ <script type="text/javascript">
+ $(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+});
+</script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
 </body>
 
