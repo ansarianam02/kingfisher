@@ -267,7 +267,7 @@ section.game.footer-section::before{
   text-align: center;
   line-height: 0;
   bottom: -5rem;
-  left:18rem;
+  left:16rem;
   background: url(../img/close.png);
 }
 .modal button.close:before {
