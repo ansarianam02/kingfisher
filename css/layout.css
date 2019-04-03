@@ -93,7 +93,7 @@ a.left.carousel-control , a.right.carousel-control{
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    height: 23rem !important;
+    height: 25rem !important;
     width: 100% !important;
 }
 
