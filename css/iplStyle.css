@@ -1,30 +1,39 @@
 .regSection .form, .otpSection .form, .moreDetailSection .form, .fillSection .form {
+    margin-top: 32px;
     margin-top: 2rem;
+    padding: 8px;
     padding: 0.5rem;
     box-shadow: 0px 1px 4px 0 rgba(0, 0, 0, 0.25);
     background-color: #fbfbfb;
+    font-size: 20.8px;
     font-size: 1.3rem;
 }
 .regist-head{
   position:relative;
 }
 .fixedHeight .regSection .form{
+  padding: 16px 32px 96px;
   padding: 1rem 2rem 6rem;
 }
 .otp-container{
   /*margin-bottom: 16rem !important;*/
 }
 .drop-container {
+  margin-top: 64px !important;
   margin-top: 4rem !important;
 }
 .text-container{
+  padding-top: 32px !important;
   padding-top: 2rem !important;
+  margin-bottom: 64px !important;
   margin-bottom: 4rem !important;
 }
 .btn-top{
+  margin-top: 112px !important;
   margin-top: 7rem !important;
 }
 .btn-top2{
+  margin-top: 96px !important;
   margin-top: 6rem !important;
 }
 .regist-head:before{
@@ -32,7 +41,9 @@
    background-repeat:no-repeat;
    content: '';
    position:absolute;
+   height: 80px;
    height:5rem;
+   width: 96px;
    width:6rem;
    left:10%;
    top:0;
@@ -41,7 +52,9 @@
    background: url(../img/cricket_bat.svg) no-repeat;
    content: '';
    position:absolute;
+   height: 80px;
    height:5rem;
+   width: 96px;
    width:6rem;
    right:2%;
    top:0;
@@ -51,7 +64,9 @@
    background-repeat:no-repeat;
    content: '';
    position:absolute;
+   height: 80px;
    height:5rem;
+   width: 96px;
    width:6rem;
    left:2%;
    top:0;
@@ -60,7 +75,9 @@
    background: url(../img/batsman-l.png) no-repeat;
    content: '';
    position:absolute;
+   height: 80px;
    height:5rem;
+   width: 96px;
    width:6rem;
    right:2%;
    top:0;
@@ -72,8 +89,11 @@
 	border: 2px solid #df0827;
     color: #df0827;
     background: #fff;
+    height: 160px !important;
     height: 10rem !important;
+    padding: 0 48px !important;
     padding: 0 3rem !important;
+    font-size: 21.6px !important;
     font-size: 1.35rem !important;
 }
 img.claimoption1, img.claimoption2 {
@@ -83,10 +103,14 @@ img.claimoption1, img.claimoption2 {
 .leaderboardrank{
   border: solid 0.5px #d0d6da;
     background-color: #ffffff;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    padding-top: 16px;
     padding-top: 1rem;
     margin-top: 10px;
     width: 95%;
+    padding-bottom: 16px;
     padding-bottom: 1rem;
 }
 .ovalrank {
@@ -96,8 +120,11 @@ img.claimoption1, img.claimoption2 {
   height: 34px;
   background-color: #df0827;
   border-radius: 100px;
+  top: -11.2px;
   top: -0.7rem;
+  left: 8px;
   left: 0.5rem;
+  font-size: 22.4px;
   font-size: 1.4rem;
   font-weight: bold;
   color: white;
