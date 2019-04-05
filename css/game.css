@@ -37,9 +37,11 @@ body{
       text-align: center;
     }
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+     left: 18.4px !important;
      left: 1.15rem !important;
   }
     .swiper-slide.swiper-slide-next {
+    margin-top: 16px;
     margin-top: 1rem;
     height: 90%;
   }
@@ -48,8 +50,10 @@ body{
       margin-left: -14%;
   }
   .swiper-slide.swiper-slide-prev {
+      margin-right: 24px !important;
       margin-right: 1.5rem !important;
       height: 90%;
+      margin-top: 16px !important;
       margin-top: 1rem !important;
   }
 
@@ -62,30 +66,38 @@ body{
       margin-right: 2.5% !important;
   }                   
   .swiper-slide{
+    line-height: 48px !important;
     line-height: 3rem !important;
+    padding-top: 16px !important;
     padding-top:1rem !important;
   }
   .swiper-scrollbar{
     display: none;
   }
   .foot-card1{
+    margin-top: 12.8px !important;
     margin-top: 0.8rem !important;
     background: url(../img/scratchcardlocked.svg);
     background-repeat: no-repeat;
+    height: 168px;
     height: 10.5rem;
     background-position: center;
     display: none !important;
   }
   .foot-card2{
+    margin-top: 12.8px !important;
     margin-top: 0.8rem !important;
     background: url(../img/scratchcardunlocked.svg);
     background-repeat: no-repeat;
+    height: 168px;
     height: 10.5rem;
     background-position: center;
   }
 
 .stopwatch-container{
+  margin-top: 192px;
   margin-top:12rem;
+  font-size: 27.2px;
   font-size: 1.7rem;
 }
 .stopwatch{
@@ -97,26 +109,37 @@ body{
     position: absolute;
     content: '';
     display: inline-block;
+    height: 48px;
     height: 3rem;
+    width: 48px;
     width: 3rem;
+    top: -64px;
     top: -4rem;
+    left: -32px;
     left: -2rem;    
 }
 .moveLeft{
+  margin-left: -64px !important;
   margin-left: -4rem !important;
 }
 .nolive{
   position: relative;
+  font-size: 32px !important;
   font-size: 2rem !important;
+  margin-top: 128px !important;
   margin-top: 8rem !important;
 }
 .nolive:before{
   content: '';
     position: absolute;
+    height: 128px;
     height: 8rem;
+    width: 96px;
     width: 6rem;
     background: url(../img/batsman-l.svg) no-repeat;
+    left: 160px;
     left: 10rem;
+    top: -160px;
     top: -10rem;
     background-size: 100% 100%;
 }
@@ -137,7 +160,9 @@ body{
   font-weight: 650;
   position: absolute;
   right: 0;
+  top: 16px;
   top: 1rem;
+  font-size: 32px;
   font-size: 2rem;  
 }
 .team-vs-mum:before{
@@ -145,7 +170,9 @@ body{
    background-repeat:no-repeat;
    content: '';
    position:absolute;
+   height: 80px;
    height:5rem;
+   width: 96px;
    width:6rem;
    left:-17%;
    top:7px;
@@ -155,12 +182,15 @@ body{
    background: url(../img/ban.svg) no-repeat;
    content: '';
    position:absolute;
+   height: 80px;
    height:5rem;
+   width: 96px;
    width:6rem;
    right:-40%;
    top:7px;
 }
 .match-date{
+  margin-left: -41.6px;
   margin-left: -2.6rem;
 }
 .match-time{
@@ -184,14 +214,20 @@ body{
     content: '';
     position: absolute;
     display: inline-block;
+    height: 64px;
     height: 4rem;
+    width: 16px;
     width: 1rem;
+    top: -3.2px;
     top: -0.2rem;
+    right: 0px;
     right: 0rem;
     border-right: 1px solid #fff;
-    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
 }
 .team2{
+    padding-right: 32px;
     padding-right:2rem;
     padding-left: 16%;
 }
@@ -199,9 +235,13 @@ body{
 .team1 .team-icon:before{
     content: '';
     position: absolute;
+    height: 60.8px;
     height: 3.8rem;
+    width: 60.8px;
     width: 3.8rem;
+    top: -11.2px;
     top: -0.7rem;
+    left: -78.4px;
     left: -4.9rem;
     background: url(../img/mum.svg) no-repeat;
     background-size: 100% 100%;
@@ -209,23 +249,31 @@ body{
 .team2 .team-icon:after{
     content: '';
     position: absolute;
+    height: 60.8px;
     height: 3.8rem;
+    width: 48px;
     width: 3rem;
+    top: -11.2px;
     top: -0.7rem;
+    right: -160px;
     right: -10rem;
     background: url(../img/ban.svg) no-repeat;
     background-size: 100% 100%;
 }
 .team-score {
     font-weight: 900;
+    font-size: 25.6px;
     font-size: 1.6rem;
 }
 .team2 span.content {
     content: '';
     position: absolute;
     color: #ffffff;
+    top: 40px;
     top: 2.5rem;
+    right: 72px;
     right: 4.5rem;
+    font-size: 16px;
     font-size: 1rem;
 }
 
@@ -233,8 +281,11 @@ body{
     content: '';
     position: absolute;
     color: #ffffff;
+    top: 40px;
     top: 2.5rem;
+    left: 152px;
     left: 9.5rem;
+    font-size: 16px;
     font-size: 1rem;
 }
 .card-panel{
@@ -242,16 +293,21 @@ body{
   border-radius: 1.2rem;
   color: #fff;
   opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   border: 2px solid #4a4a4aa6;
+  font-size: 19.2px;
   font-size: 1.2rem;
 }
 .ball-icon:before{
   content: '';
   position: absolute;
+  height: 32px;
   height: 2rem;
+  width: 48px;
   width:3rem;
   background:url('../img/cricketBall.svg') no-repeat;
   left: 7%;
+  top: 8px;
   top: 0.5rem;
 }
 .ball-icon{
@@ -265,7 +321,9 @@ body{
 .result.won span{
   color: #3c763d;
   background: #dff0d8;
+  padding: 8px 16px;
   padding: 0.5rem 1rem;
+  font-size: 22.4px;
   font-size: 1.4rem;
   border-radius: 2rem;
   white-space: nowrap;
@@ -273,22 +331,29 @@ body{
 .result.lost span {
   color: #a94442;
   background: #f2dede;
+  padding: 8px 16px;
   padding: 0.5rem 1rem;
+  font-size: 22.4px;
   font-size: 1.4rem;
   border-radius: 2rem;
   font-weight: bold; 
   white-space:nowrap
 }
 .quest{
+  font-size: 32px;
   font-size: 2rem;
 }
 .answer{
+  padding: 0 64px;
   padding: 0 4rem;
 }
 .answer .selected{
+  font-size: 20.8px;
   font-size: 1.3rem;
   font-weight: normal !important;
+  letter-spacing: 0.8px;
   letter-spacing: 0.05rem;
+  margin-top: 32px;
   margin-top: 2rem;
   display: inline-block;
 }
@@ -301,24 +366,32 @@ body{
 .coin:before{
   content: '';
   position: absolute;
+  height: 32px;
   height: 2rem;
+  width: 32px;
   width: 2rem;
   background: url(../img/coin.svg);
+  top: 8px;
   top: 0.5rem;
+  left: 32px;
   left: 2rem
 }
 .game-top{
+  margin-left: -48px;
   margin-left: -3rem;
 }
 .game-top .top-coin{
   position: absolute;
   right: 13%;
+  top: 20.8px;
   top: 1.3rem;
 }
 .question{
+  font-size: 27.2px;
   font-size: 1.7rem;
 }
 .no-bowl{
+  margin-top: 80px;
   margin-top: 5rem;
 }
 .won-card{
@@ -328,9 +401,12 @@ body{
    content: '';
     position: absolute;
     display: inline-block;
+    top: 16px;
     top: 1rem;
+    left: 8px;
     left: 0.5rem;
     width: 97%;
+    height: 512px;
     height: 32rem;
     background: url(../img/celeb1.svg) no-repeat;
     background-size: 100% 100%;
@@ -349,9 +425,13 @@ body{
   content: '';
   position: absolute;
   display: inline-block;
+  width: 96px;
   width: 6rem;
+  height: 35.2px;
   height: 2.2rem;
+  top: -4.8px;
   top: -0.3rem;
+  left: -99.2px;
   left: -6.2rem;
   background: url(../img/live.svg) no-repeat;
   background-size: contain;
@@ -364,8 +444,11 @@ body{
   content: '';
   position: absolute;
   display: inline-block;
+  height: 128px;
   height: 8rem;
+  width: 464px;
   width: 29rem;
+  top: 16px;
   top: 1rem;
   left: 4%;
   background: url(../img/scratch-title.svg) no-repeat;
@@ -374,8 +457,10 @@ body{
   content: '';
   position: absolute;
   display: inline-block;
+  height: 128px;
   height: 8rem;
   width: 94%;
+  top: 80px;
   top: 5rem;
   left: 4%;
   background: url(../img/king-good.svg) no-repeat;
@@ -384,8 +469,10 @@ body{
 
 .canvas {
   position: absolute;
+  top: 80px;
   top: 5rem;
   left: 10%;
+  width: 384px;
   width: 24rem;
 }
 
@@ -394,27 +481,35 @@ body{
 }
 .claim-list{
   position: relative;
+  margin-top: 160px;
   margin-top: 10rem;
 }
 .claim-list li{
+  font-size: 25.6px;
   font-size: 1.6rem;
+    margin: 64px 0;
     margin: 4rem 0;
     list-style: none;
 }
 .claim-list li:nth-child(2){
+  margin-bottom: 16px !important;
   margin-bottom: 1rem !important;
     
 }
 .claim-list li:before{
   content: '';
   position: absolute;
+  height: 32px;
   height: 2rem;
+  width: 48px;
   width:3rem;
   background:url('../img/cricketBall.svg') no-repeat;
+  left: 16px;
   left: 1rem;
 }
 .congratulation .congo-icon{
   position: relative;
+  padding: 176px 32px 0px;
   padding: 11rem 2rem 0rem;
 
 }
@@ -426,9 +521,12 @@ body{
   position: absolute;
   content: '';
   display: inline-block;
+  top: 112px;
   top: 7rem;
   left: 14%;
+  width: 240px;
   width: 15rem;
+  height: 48px;
   height: 3rem;
   background: url(../img/congratulations.png) no-repeat;
   background-size: contain;
@@ -444,13 +542,16 @@ body{
   content: '';
   display: inline-block;
   background: url(../img/celeb-lg.png) no-repeat;
+  height: 592px;
   height: 37rem;
   width: 100%;
+  top: 112px;
   top: 7rem;
   z-index: 999;
   background-size: 100% 97%;
 }
 .congratulation .sms-alert{
+  margin-top: 176px;
   margin-top: 11rem;
   display: none;
 }
@@ -458,10 +559,12 @@ body{
   display: block !important;
 }
 .won-title{
+  font-size: 16px;
   font-size: 1rem;
 }
 .won-point{
   position: relative;
+    font-size: 48px;
     font-size: 3rem;
 }
 .won-point:before{
@@ -469,7 +572,9 @@ body{
     position: absolute;
     top: 18%;
     left: 20%;
+    height: 48px;
     height: 3rem;
+    width: 56px;
     width: 3.5rem;
     background: url(../img/coin.svg) no-repeat;
     background-size: contain;
@@ -479,12 +584,16 @@ body{
     background: url(../img/timer.png) no-repeat;
     background-size: 100%;
     background-position: center;
+    height: 56px;
     height: 3.5rem;
+    width: 96px;
     width: 6rem;
+    right: 48px;
     right: 3rem;
     text-align: center;
 }
 .btn-submit{
+  padding: 16px !important;
   padding: 1rem !important;
 }
 .team-name.cheers{
@@ -493,8 +602,11 @@ body{
 .team1 .team-name.cheers:after {
     content:'';
     position:absolute;
+    top: -8px;
     top:-0.5rem;
+    left: 80px;
     left:5rem;
+    height: 40px;
     height:2.5rem;
     width:2em;
   
@@ -505,8 +617,11 @@ body{
 .team2 .team-name.cheers:after {
     content:'';
     position:absolute;
+    top: -8px;
     top:-0.5rem;
+    right: 40px;
     right:2.5rem;
+    height: 40px;
     height:2.5rem;
     width:2em;  
     background:url('../img/cheers.svg') no-repeat;
@@ -517,8 +632,10 @@ body{
   content: '';
   position: absolute;
   display: inline-block;
+  height: 128px;
   height: 8rem;
   width: 100%;
+  top: 16px;
   top: 1rem;
   left: 0;
   background: url(../img/innings-title.svg) no-repeat;
@@ -528,26 +645,35 @@ body{
 .innings .ball-icon:before {
     content: '';
     position: absolute;
+    height: 32px;
     height: 2rem;
+    width: 48px;
     width: 3rem;
     background: url(../img/cricketBall.svg) no-repeat;
+    left: -33.6px;
     left: -2.1rem;
+    top: 4.8px;
     top: 0.3rem;
 }
 .innings .won-title{
+  font-size: 32px;
   font-size: 2rem;
   font-weight: 600;
   /*padding-top: 5rem;*/
 }
 .innings .score {
+    font-size: 32px;
     font-size: 2rem;
     font-weight: 300;
+    left: 16px;
     left: 1rem;
 }
 .here-container{
+  margin-top: 64px !important;
   margin-top: 4rem !important;
 }
 .modal-body.select{
+  padding-top: 112px;
   padding-top: 7rem;
 }
 .select .select-txt{
@@ -555,10 +681,13 @@ body{
 }
 .card-list {
     position: relative;
+    padding: 25.6px 0 25.6px 112px !important;
     padding: 1.6rem 0 1.6rem 7rem !important;
     border: 0.5px solid #979797;
     border-radius: 6px;
+    margin-top: 24px;
     margin-top: 1.5rem;
+    font-size: 25.6px;
     font-size: 1.6rem;
 }
 .card-list:before {
@@ -566,19 +695,27 @@ body{
     position: absolute;
     display: inline-block;
     background: url(../img/cheers.svg) no-repeat;
+    height: 48px;
     height: 3rem;
+    width: 48px;
     width: 3rem;
+    top: 16px;
     top: 1rem;
+    left: 48px;
     left: 3rem;
 }
 span.expired {
     color: #df0827;
     border: 1px solid #df0827;
     border-radius: 15px;
+    padding: 3.2px 17.6px;
     padding: 0.2rem 1.1rem;
     position: absolute;
+    right: 16px;
     right: 1rem;
+    top: 20.8px;
     top: 1.3rem;
+    font-size: 24px !important;
     font-size: 1.5rem !important;
 }
 .modal-dialog.modal-lg.king{
@@ -587,15 +724,21 @@ span.expired {
 .modal-dialog.modal-lg.king:before {
    content: '';
     position: absolute;
+    top: -48px;
     top: -3rem;
+    left: -48px;
     left: -3rem;
+    height: 1120px;
     height: 70rem;
+    width: 672px;
     width: 42rem;
     background: url(../img/sparkle.svg) no-repeat;
     background-size: contain;
 }
 .modal-dialog.modal-lg.king{
+  margin-right: 64px;
   margin-right:4rem;
+  margin-left: 64px;
   margin-left:4rem;
 }
 
@@ -603,6 +746,7 @@ span.expired {
   left: 44% !important;
 }
 .imp-title{
+  margin-top: 80px !important;
   margin-top: 5rem !important;
 }
 .locked-icon{
@@ -613,28 +757,37 @@ span.expired {
   content: '';
   position: absolute;
   display: inline-block;
+  top: -112px;
   top: -7rem;
   left: 40%;
   background: url(../img/lock.svg) no-repeat;
+  height: 128px;
   height: 8rem;
+  width: 128px;
   width: 8rem;
 }
 .lock .claim-list{
+  margin-top: 192px !important;
   margin-top: 12rem !important;
 }
 .foot-card3{
     background: url(../img/foot3.svg);
     background-size: 100% 100%;
+    padding: 19.2px 0;
     padding: 1.2rem 0;
     border-radius: 2px;
 }
 .foot-card3 .ball-icon:before {
     content: '';
     position: absolute;
+    height: 32px;
     height: 2rem;
+    width: 48px;
     width: 3rem;
     background: url(../img/cricketBall.svg) no-repeat;
+    left: 278.4px;
     left: 17.4rem;
+    top: 0px;
     top: 0rem;
 }
 .foot-card3 .won-txt{
