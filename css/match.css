@@ -3,7 +3,7 @@ body{
     background-size: 100% 100%;
   }
   
-section.footer-section::before{
+section.footer-section:before{
 	background-image: none !important;
 }
 .txt-8{
@@ -19,6 +19,7 @@ section.footer-section::before{
   font-size: 13px;
 }
 .team1{
+  padding-left: 32px;
   padding-left: 2rem;
 }
 .team1:after{
@@ -27,7 +28,9 @@ section.footer-section::before{
   font-weight: 650;
   position: absolute;
   right: 0;
+  top: -9.6px;
   top: -0.6rem;
+  font-size: 32px;
   font-size: 2rem;  
 }
 .team1:before{
@@ -35,24 +38,31 @@ section.footer-section::before{
 	background-repeat: no-repeat;
 	content: '';
 	position: absolute;
+	height: 48px;
 	height: 3rem;
+	width: 48px;
 	width: 3rem;
 	left: -8%;
   top: -9px;
 }
 .team.team2 {
+    padding-left: 32px !important;
     padding-left: 2rem !important;
 }
 .team2:after{
    background: url(../img/ban.png) no-repeat;
     content: '';
     position: absolute;
+    height: 48px;
     height: 3rem;
+    width: 48px;
     width: 3rem;
     right: -17%;
+    top: -9.6px;
     top: -0.6rem;
 }
 .match-date{
+  margin-left: -41.6px;
   margin-left: -2.6rem;
 }
 .match-time{
@@ -62,6 +72,7 @@ section.footer-section::before{
   padding: 5px 3px;
   margin-bottom: 16px;
   text-align: center;
+  left: 32px;
   left: 2rem;
 }
 .current-match{
@@ -71,10 +82,12 @@ section.footer-section::before{
   padding: 5px 3px;
   margin-bottom: 16px;
   text-align: center;
+  left: 32px;
   left: 2rem;
 }
 
 .start-play{
+	padding: 16px 32px;
 	padding: 1rem 2rem;
 	background: #df0827;
 	color: #fff;
@@ -83,5 +96,6 @@ section.footer-section::before{
 }
 .upcoming{
 	font-weight: 750;
+    font-size: 24px;
     font-size: 1.5rem;
 }
